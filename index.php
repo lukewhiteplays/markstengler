@@ -39,7 +39,7 @@
 				<div class="st-content-inner">
 					<!-- navigation bar -->
 				    <nav class="navbar navbar-default navbar-inverse navbar-main navbar-fixed-top" role="navigation">
-					  	<div class="container">
+					  	<div class="container-fluid">
 						    <!-- Brand and toggle get grouped for better mobile display -->
 						    <div class="navbar-header">
 						      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -73,13 +73,13 @@
 						      	<li><a href="#" class="search-trigger" data-toggle="modal" data-target="#modal-search"><span class="icon icon-search"></span></a></li>
 						        <li><a href="#" class="login-trigger" data-toggle="modal" data-target="#modal-login">Login</a></li>
 						        <li class="vertical-divider"></li>
-						        <li><a href="#" class="join">Join</a></li>
+						        <li><a href="#" class="join register-trigger" data-toggle="modal" data-target="#modal-register">Join</a></li>
 						        <li><a href="#" class="cart-trigger" data-effect="st-effect-3"><span class="icon icon-shop"></span></a></li>
 						      </ul>
 						    </div><!-- /.navbar-collapse -->    
 						</div><!-- /.container-fluid -->
 					  	<div class="navbar-products">
-					  		<div class="container">
+					  		<div class="container-fluid">
 						  		it has something
 					  		</div>
 						</div>
@@ -158,6 +158,123 @@
 	    </div><!-- /.modal-content -->
 	  </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
+	
+	<div class="modal modal-register fade" id="modal-register" tabindex="-1" aria-labeledby="modal-register-label" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Register</h3>
+				</div>
+				<div class="modal-body">
+					<form class="form" role="form">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="form-group">
+									<input 
+										type="text"
+										name="first_name"
+										class="input-lg form-control"
+										placeholder="First Name">
+										<span class="form-control-feedback"></span>
+								</div>
+							</div>
+								
+							<div class="col-lg-6">
+								<div class="form-group">
+									<input 
+										type="text"
+										name="last_name"
+										class="input-lg form-control"
+										placeholder="Last Name">
+										<span class="form-control-feedback"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="form-group">
+									<input 
+										type="email"
+										name="email"
+										class="input-lg form-control"
+										placeholder="Email Address">
+										<span class="form-control-feedback"></span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="form-group">
+										<input 
+											type="password"
+											name="password"
+											class="input-lg form-control"
+											placeholder="Password">
+											<span class="form-control-feedback password-view fa fa-eye"></span>
+								</div>
+							</div>
+						</div><!-- ./row -->
+						<div class="form-group">
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" checked> Sign up for our mailing list.
+								</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-register-submit pull-right">Join</button>
+						</div>
+					</form>
+				</div><!-- ./modal-body -->
+				<div class="modal-footer">
+				</div>
+			</div><!-- ./modal-content -->
+		</div><!--./modal-dialog -->
+	</div><!-- ./modal -->
+	
+	<div class="footer-large">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-4">
+					What is here
+				</div>
+				<div class="col-lg-4 footer-large-social">
+					<h3>Follow, Like, Subscribe</h3>
+					
+					<div class="social-links">
+						<span class="fa fa-facebook"></span>
+						<span class="fa fa-twitter"></span>
+						<span class="fa fa-googleplus"></span>
+						<span class="fa fa-youtube"></span>
+					</div>
+				</div>
+				<div class="col-lg-4 footer-email-subscribe">
+					<h3>Newsletter</h3>
+					<form class="form form-horizontal" role="form">
+						<div class="form-group">
+							<div class="input-group col-lg-12">
+								<input
+									type="email"
+									name="email"
+									spellcheck="false"
+									class="input-lg form-control"
+									placeholder="Email Address">
+							</div>
+							<button class="btn btn-default btn-email-subscribe pull-right" type="submit">Subscribe</button>
+						</div>
+					</form>
+				</div>
+
+				
+			</div><!-- ./row -->
+		</div><!-- ./container-fluid -->
+	</div><!-- ./footer-large -->
+	
+	<div class="footer" id="footer">
+		<div class="container-fluid">
+			&copy; Copyright 2014 by Mark Stengler. All Rights Reserved | <a href="#">Privacy Policy</a>
+		</div>
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -166,6 +283,7 @@
     
     <script src="/assets/js/vendor/sidebarTransitions/classie.js"></script>
     <script src="/assets/js/vendor/sidebarTransitions/sidebarEffects.js"></script>
+    <script src="/assets/js/vendor/hideShowPassword/hideShowPassword.min.js"></script>
     
     <script>
     	$('.nav li .products-trigger').on('click',function(e){
@@ -179,6 +297,14 @@
     		var $input = $('.modal-search').find('input[type=search]');
     		$input.focus();
     	});
+    	
+    	$('.password-view').on('click',function(e){
+    		var $input = $(this).siblings('input');
+    		console.log($input);
+    		$input.togglePassword();
+    	});
+    	
+    	
     	
     </script>
   </body>
