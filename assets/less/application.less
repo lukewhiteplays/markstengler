@@ -1,0 +1,217 @@
+@import "application-fonts.less";
+@import "application-variables.less";
+@import "application-icons.less";
+@import "application-sidebar.less";
+
+// Fonts
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.navbar-main{
+	height:80px;
+	padding:15px 0px;
+	background-color:@gray-darker;
+	border-width:0;
+	.navbar-header{
+		.navbar-brand{
+			font-size:24px;
+			font-family:'Montserrat';
+			font-weight:400;
+			color:@brand-primary;
+			border-width:0;
+			span{
+				font-size:16px;
+				font-family:'Lato';
+				font-weight:300;
+			}
+		}
+	}
+	.nav{
+		border-width:0;
+		li{
+			a{
+				font-family:'Lato';
+				font-weight:300;
+				font-size:18px;
+				letter-spacing:1px;
+				&.search-trigger{
+					.icon{
+						&:before{
+							margin-right:0;
+						}
+					}
+				}
+				&.join{
+					border-left:1px solid @clouds;
+				}
+				.glyphicon{
+					font-size:22px;
+				}
+			}
+		}
+	}
+	.navbar-products{
+		display:none;
+		height:400px;
+		margin-top:10px;
+		background-color:@gray-darker
+	}
+}
+
+.modal-search{
+	margin:0;
+	padding:0;
+	.modal-dialog {
+	  	width: 100%;
+	  	height: 100%;
+	  	padding: 0;
+	  	margin:0;
+	  	.modal-content {
+	  		margin:0;
+		  	height: 100%;
+		  	border-radius: 0;
+		  	background-color:rgba(0,0,0,.8);
+		  	padding:100px;
+		  	color:@clouds;
+		  	.modal-header,.modal-body,.modal-footer{
+			  	border-width:0;
+		  	}
+		  	button{
+			  	&.close{
+				  	color:@clouds;
+				  	font-size:32px;
+			  	}
+		  	}
+		  	label{
+			  	font-size:32px;
+			  	margin-right:15px;
+		  	}
+		  	form{
+			  	width:100%;
+			  	.input-group{
+				  	&:before{
+					  	color:@clouds;
+					  	width:36px;
+					  	font-family:'Linecons';
+					  	content: '\e020';
+					  	font-size:28px;
+					  	margin-right:-36px;
+				  	}
+			  	}
+			  	input[type=search]{
+				  	border-width:0 0 2px 0;
+				  	background-color:transparent;
+				  	box-shadow:none;
+				  	color:@white;
+				  	border-radius:0;
+				  	padding-left:50px;
+				  	font-size:32px;
+				  	font-family:'Lato';
+				  	font-weight:300;
+				  	width:95%;
+				  	outline: none;
+				  	&:focus{
+					  	outline: none;
+				  	}
+			  	}
+		  	}
+		  	
+		}
+	}
+}
+
+.modal-login{
+	top:65px;
+	.modal-dialog{
+		.modal-content{
+			border-radius:0;
+			color:@clouds;
+			background-color:black;
+			box-shadow:none;
+			.modal-header,.modal-body,.modal-footer{
+				border-width:0;
+			}
+			.modal-header{
+				.modal-title{
+					text-align:center;
+				}
+				button{
+					&.close{
+						font-size:32px;
+						
+					}
+				}
+			}
+			.modal-body{
+				text-align:center;
+				margin-bottom:0;
+				.btn-login-facebook, .btn-login-twitter {
+					text-align:left;
+					border-radius:0;
+					border-width:0;
+					width:224px;
+					margin-left:0 auto;
+					margin-right:0 auto;
+					margin-bottom:15px;
+					font-size:16px;
+					.fa{
+						padding-right:15px;
+						width:32px;
+					}
+				}
+				.btn-login-facebook{
+					background-color:@wet-asphalt;
+				}
+				.btn-login-twitter{
+					background-color:@peter-river;
+				}
+			}
+			.modal-footer{
+				margin-top:0;
+				text-align:center;
+			}
+			form{
+				border-top:1px solid @gray;
+				padding-top:15px;
+				margin-bottom:0;
+				text-align:center;
+				.form-group{
+					text-align:center;
+					.input-group{
+						text-align:center;						
+						margin-left:auto;
+						margin-right:auto;
+					}
+				}
+				input{
+					text-align:center;
+					border-radius:50px;
+					box-shadow:0;
+					border-width:0;
+					outline:none;
+					color:@belize-hole;
+					font-family:'Lato';
+					font-weight:300;
+				}
+			}
+			button[type=submit]{
+				text-align:center;
+				border-radius:50px;
+				box-shadow:0;
+				border-width:0;
+				width:224px;
+				padding:12px 0px;
+				outline:none;
+				background-color:@peter-river;
+				font-family:'Lato';
+				font-weight:400;
+				font-size:18px;
+				margin-bottom:15px;
+				&:hover{
+					background-color:@belize-hole;
+				}
+			}
+		}
+	}
+}

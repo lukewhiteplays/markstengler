@@ -7,7 +7,7 @@
     <title>Mark Stengler Dev Environment</title>
 
     <!-- Bootstrap -->
-    <link href="/assets/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -119,38 +119,39 @@
 	  <div class="modal-dialog modal-sm">
 	    <div class="modal-content">
 		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 		        <h3 class="modal-title">Welcome</h3>
 		      </div>
 		      <div class="modal-body">
-		       <form class="form form-horizontal">
-		        	<div class="form-group">
-		        		<div class="input-group">
-						    <input 
-						    	tabindex="3"
-						    	type="text" 
-						    	name="username" 
-						    	class="input-lg"
-						    	autofocus="yes"
-						    	spellcheck="false"
-						    	placeholder="username">
-		        		</div>
-		        	</div>
-		        	
-		        	<div class="form-group">
-		        		<div class="input-group">
-						    <input 
-						    	tabindex="3"
-						    	type="password" 
-						    	name="password" 
-						    	class="input-lg"
-						    	spellcheck="false"
-						    	placeholder="password">
-		        		</div>
-		        	</div>
-		        	<button class="btn btn-primary btn-login" type="submit">Enter</button>
-		        	<br><a href="#">Forgot your password?</a> | <a href="#">Close</a>
-		        </form>
+			      <button class="btn btn-primary btn-lg btn-login-facebook" type="button"><span class="fa fa-facebook"></span>Login using Facebook</button>
+			      <button class="btn btn-primary btn-lg btn-login-twitter" type="button"><span class="fa fa-twitter"></span>Login using Twitter</button>
+			       <form class="form form-horizontal">
+			        	<div class="form-group">
+			        		<div class="input-group">
+							    <input 
+							    	tabindex="3"
+							    	type="text" 
+							    	name="username" 
+							    	class="input-lg"
+							    	autofocus="yes"
+							    	spellcheck="false"
+							    	placeholder="username">
+			        		</div>
+			        	</div>
+			        	
+			        	<div class="form-group">
+			        		<div class="input-group">
+							    <input 
+							    	tabindex="3"
+							    	type="password" 
+							    	name="password" 
+							    	class="input-lg"
+							    	spellcheck="false"
+							    	placeholder="password">
+			        		</div>
+			        	</div>
+			        	<button class="btn btn-primary btn-login" type="submit">Enter</button>
+			        	<br><a href="#">Forgot your password?</a> | <a href="#" data-dismiss="modal" aria-hidden="true">Close</a>
+			        </form>
 		      </div>
 		      <div class="modal-footer">
 		      </div>
@@ -161,7 +162,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/assets/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     
     <script src="/assets/js/vendor/sidebarTransitions/classie.js"></script>
     <script src="/assets/js/vendor/sidebarTransitions/sidebarEffects.js"></script>
