@@ -84,10 +84,26 @@
 					  		</div>
 						</div>
 					</nav>
-				</div>
-			</div>
-		</div>
-  	</div>
+					
+					<div class="container-fluid container-main">
+						<div class="row features">
+							<div class="col-lg-6 feature-video-large">
+								<img src="http://placehold.it/1280x720" class="img-responsive">
+							</div>
+							<div class="col-lg-3">
+								<img src="http://placehold.it/300x200" class="img-responsive">
+							</div>
+							<div class="col-lg-3">
+								<img src="http://placehold.it/300x200" class="img-responsive">
+							</div>
+						</div>
+					</div>
+							
+							
+				</div><!-- ./st-content-inner -->
+			</div><!-- ./st-content -->
+		</div><!-- ./st-pusher -->
+  	</div><!-- ./st-container -->
 	
 	<div class="modal modal-search" id="modal-search" tabindex="-1" aria-labeledby="modal-search-label" aria-hidden="true">
 	  <div class="modal-dialog">

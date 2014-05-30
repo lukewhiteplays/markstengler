@@ -15,11 +15,12 @@
 }
 html{
 	min-height:100%;
-	position:relative;
 }
 
 body{
-	margin-bottom:260px;
+	.container-main{
+		padding-top:100px;
+	}
 }
 
 .navbar-main{
@@ -308,8 +309,6 @@ body{
 }
 
 .footer-large{
-	position:absolute;
-	bottom:60px;
 	width:100%;
 	height:300px;
 	background-color:#222;
@@ -334,6 +333,7 @@ body{
 	}
 	.footer-email-subscribe{
 		form{
+			padding:0 25px;
 			input[type=email]{
 				border-radius:0;
 				box-shadow:none;
@@ -341,9 +341,14 @@ body{
 				font-weight:300;
 				border-width:0px 0px 2px 0px;
 				background-color:transparent;
-				padding-left:0;
+				padding-left:34px;
 				font-size:24px;
 				margin-bottom:15px;
+				color:@peter-river;
+				background-image:url(/assets/img/icons/linecons/png/mail.png);
+				background-repeat:no-repeat;
+				background-size:24px;
+				background-position:left center;
 			}
 			button[type=submit]{
 				border-radius:50px;
@@ -356,7 +361,7 @@ body{
 				font-weight:300;
 				letter-spacing: 1px;
 				&:hover{
-					background-color:@black;
+					background-color:transparent;
 					color:@white;
 				}
 			}
@@ -365,8 +370,6 @@ body{
 }
 
 .footer{
-	position:absolute;
-	bottom:0;
 	width:100%;
 	height:60px;
 	text-align:center;
