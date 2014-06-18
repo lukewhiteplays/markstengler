@@ -19,7 +19,17 @@ html{
 
 body{
 	.container-main{
-		padding-top:100px;
+		min-height:100%;
+		padding-top:110px;
+		.row{
+			margin-bottom:@grid-gutter-width;
+			.row{
+				&:last-child{
+					margin-bottom:0;
+				}
+			}
+		}
+		
 	}
 }
 
@@ -69,8 +79,40 @@ body{
 	.navbar-products{
 		display:none;
 		height:400px;
-		margin-top:10px;
-		background-color:@gray-darker
+		margin-top:0px;
+		background-color:@gray-darker;
+		color:@clouds;
+		h3{
+			color:@peter-river;
+			font-family:'Lato';
+			font-weight:300;
+		}
+		.list-unstyled{
+			font-size:16px;
+			li{
+				a{
+					width:100%;
+					padding:6px 8px;
+					display:block;
+					&:hover{
+						text-decoration:none;
+						color:@peter-river;
+						background-color:#333;
+					}
+				}
+			}
+		}
+	}
+	
+	.navbar-books{
+		.media{
+			padding:7px;
+			&:hover{
+				cursor:pointer;
+				background-color:#333;
+				color:@peter-river;
+			}
+		}
 	}
 }
 
@@ -92,8 +134,9 @@ body{
 		  	.modal-header,.modal-body,.modal-footer{
 			  	border-width:0;
 		  	}
-		  	button{
-			  	&.close{
+		  	.modal-header{
+		  		height:100px;
+			  	a{
 				  	color:@clouds;
 				  	font-size:32px;
 			  	}
@@ -124,7 +167,7 @@ body{
 				  	font-size:32px;
 				  	font-family:'Lato';
 				  	font-weight:300;
-				  	width:95%;
+				  	width:100%;
 				  	outline: none;
 				  	&:focus{
 					  	outline: none;
@@ -308,9 +351,63 @@ body{
 	}
 }
 
+.st-menu{
+	.media{
+		padding:20px;
+		color:@clouds;
+		font-size:12px;
+		h4{
+			font-size:18px;
+			font-family:'Lato';
+			font-weight:300;
+			color:@white;
+		}
+		border-bottom:1px solid #333;
+		.shopping-cart-price{
+			margin-top:5px;
+			font-size:14px;
+			display:block;
+			color:@peter-river;
+			text-align:right;
+		}
+	}
+	.actions{
+		padding:20px;
+		button{
+			border-radius:50px;
+			width:150px;
+			padding-top:4px;
+			background-color:@peter-river;
+			border:2px solid @peter-river;
+			font-size:18px;
+			color:@white;
+			&:hover{
+				background-color:transparent;
+				color:@peter-river;
+			}
+		}
+	}
+	.totals{
+		padding:20px;
+		color:@belize-hole;
+		font-size:22px;
+		text-align:right;
+		background-color:#333;
+	}
+}
+
+.footer-partners{
+	width:100%;
+	height:200px;
+	background-color:@clouds;
+	padding:30px 30px 0px 30px;
+	.row{
+		margin-bottom:0;
+	}
+}
 .footer-large{
 	width:100%;
-	height:300px;
+	height:260px;
 	background-color:#222;
 	color:@clouds;
 	font-family:'Lato';
@@ -323,17 +420,42 @@ body{
 		margin-bottom:20px;
 		letter-spacing:1px;
 	}
+	.footer-large-payment{
+		.flaticon{
+			font-size:55px;
+			color:@silver;
+		}
+	}
 	.footer-large-social{
 		.social-links{
-			.fa{
-				font-size:32px;
+			a{
+				font-size:46px;
 				margin-right:15px;
+				&:last-child{
+					margin-right:0;
+				}
+				&:hover{
+					color:@peter-river;
+				}
 			}
+			
 		}
 	}
 	.footer-email-subscribe{
 		form{
 			padding:0 25px;
+			.input-group{
+				&:before{
+				  	color:@silver;
+				  	width:34px;
+				  	font-family:'Linecons';
+				  	content: '\e01f';
+				  	font-size:24px;
+				  	position:absolute;
+				  	left:-4px;
+				  	top:7px;
+			  	}
+			}
 			input[type=email]{
 				border-radius:0;
 				box-shadow:none;
@@ -345,10 +467,6 @@ body{
 				font-size:24px;
 				margin-bottom:15px;
 				color:@peter-river;
-				background-image:url(/assets/img/icons/linecons/png/mail.png);
-				background-repeat:no-repeat;
-				background-size:24px;
-				background-position:left center;
 			}
 			button[type=submit]{
 				border-radius:50px;

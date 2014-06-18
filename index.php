@@ -25,13 +25,51 @@
 		<div class="st-pusher">
 			<nav class="st-menu st-effect-3" id="menu-3">
 				<h2>Shopping Cart</h2>
-				<ul>
-					<li><a class="icon icon-data" href="#">Data Management</a></li>
-					<li><a class="icon icon-location" href="#">Location</a></li>
-					<li><a class="icon icon-study" href="#">Study</a></li>
-					<li><a class="icon icon-photo" href="#">Collections</a></li>
-					<li><a class="icon icon-wallet" href="#">Credits</a></li>
-				</ul>
+				<div class="media">
+					<a class="pull-left" href="#">
+						<img class="media-object" src="http://placehold.it/64x64">
+					</a>
+					<div class="media-body">
+						<h4 class="media-heading">Prescription for Drug Alternatives</h4>
+						All-Natural Options for Better Health without the Side Effects...
+						<div class="shopping-cart-price">
+							<strong>$34.99</strong>
+						</div>
+					</div>
+				</div>
+				
+				<div class="media">
+					<a class="pull-left" href="#">
+						<img class="media-object" src="http://placehold.it/64x64">
+					</a>
+					<div class="media-body">
+						<h4 class="media-heading">Cholesterol Wellness</h4>
+						Therapeutic dosages of synergistic nutrients that have been shown to improve HDL...
+						<div class="shopping-cart-price">
+							<strong>$27.99</strong>
+						</div>
+					</div>
+				</div>
+				
+				<div class="media">
+					<a class="pull-left" href="#">
+						<img class="media-object" src="http://placehold.it/64x64">
+					</a>
+					<div class="media-body">
+						<h4 class="media-heading">Mega Flora</h4>
+						Mega Flora is a vegetarian, dairy- and gluten-free, four-strain probiotic
+						<div class="shopping-cart-price">
+							<strong>$56.99</strong>
+						</div>
+					</div>
+				</div>
+				<div class="totals">
+					$122.76
+				</div>
+				<div class="actions">
+					<button class="btn btn-primary pull-left" type="button"><span class="fa fa-shopping-cart"></span> Edit Cart</button>
+					<button class="btn btn-primary pull-right" type="button"><span class="fa fa-dollar"></span> Checkout</button>
+				</div>
 			</nav>
 		
 		
@@ -74,13 +112,77 @@
 						        <li><a href="#" class="login-trigger" data-toggle="modal" data-target="#modal-login">Login</a></li>
 						        <li class="vertical-divider"></li>
 						        <li><a href="#" class="join register-trigger" data-toggle="modal" data-target="#modal-register">Join</a></li>
-						        <li><a href="#" class="cart-trigger" data-effect="st-effect-3"><span class="icon icon-shop"></span></a></li>
+						        <li><a href="#" class="cart-trigger" data-effect="st-effect-3"><span class="icon icon-shop"></span> $122.76</a></li>
 						      </ul>
 						    </div><!-- /.navbar-collapse -->    
 						</div><!-- /.container-fluid -->
 					  	<div class="navbar-products">
 					  		<div class="container-fluid">
-						  		it has something
+					  			<div class="row">
+					  				<div class="col-lg-4">
+						  				<h3>Dietary Supplements</h3>
+						  				<div class="col-lg-6">
+							  				<ul class="list-unstyled">
+							  					<li><a href="#">Top Sellers</a></li>
+							  					<li><a href="#">Anti Aging</a></li>
+							  					<li><a href="#">Blood Sugar Support</a></li>
+							  					<li><a href="#">Bone Support</a></li>
+							  					<li><a href="#">Brain Health</a></li>
+							  					<li><a href="#">Digestive Health</a></li>
+							  					<li><a href="#">Energy</a></li>
+							  					<li><a href="#">Heart Health</a></li>
+							  				</ul>
+						  				</div>
+						  				<div class="col-lg-6">
+						  					<ul class="list-unstyled">
+							  					<li><a href="#">Immune Support</a></li>
+							  					<li><a href="#">Joint Support</a></li>
+							  					<li><a href="#">Liver Health</a></li>
+							  					<li><a href="#">Men's Health</a></li>
+							  					<li><a href="#">Multivitamin</a></li>
+							  					<li><a href="#">Prostate Health</a></li>
+							  					<li><a href="#">Stress & Sleep</a></li>
+							  					<li><a href="#">Weight Management</a></li>
+							  					<li><a href="#">Women's Health</a></li>
+							  				</ul>
+						  				</div>
+					  				</div><!-- ./col-lg-4 -->
+					  				<div class="col-lg-4 navbar-books">
+					  					<h3>Books</h3>
+					  					<div class="media">
+					  						<a class="pull-left" href="#">
+					  							<img class="media-object" src="http://placehold.it/64x64">
+					  						</a>
+					  						<div class="media-body">
+					  							<h4 class="media-heading">Prescription for Drug Alternatives</h4>
+					  							All-Natural Options for Better Health without the Side Effects
+					  						</div>
+					  					</div>
+					  					
+					  					<div class="media">
+					  						<a class="pull-left" href="#">
+					  							<img class="media-object" src="http://placehold.it/64x64">
+					  						</a>
+					  						<div class="media-body">
+					  							<h4 class="media-heading">The Natural Physician's Healing Therapies</h4>
+					  							Proven Remedies Medical Doctors Don't Know
+					  						</div>
+					  					</div>
+					  					
+					  					<div class="media">
+					  						<a class="pull-left" href="#">
+					  							<img class="media-object" src="http://placehold.it/64x64">
+					  						</a>
+					  						<div class="media-body">
+					  							<h4 class="media-heading">Prescription for Natural Cures</h4>
+					  							The all-in-one natural health resource your family can trust
+					  						</div>
+					  					</div>
+					  					
+					  				</div>
+					  				<div class="col-lg-4">
+					  					<h3>Services</h3>
+					  			</div><!-- ./row -->						  			
 					  		</div>
 						</div>
 					</nav>
@@ -90,12 +192,113 @@
 							<div class="col-lg-6 feature-video-large">
 								<img src="http://placehold.it/1280x720" class="img-responsive">
 							</div>
+							<div class="col-lg-6">
+								<div class="row">
+									<div class="col-lg-4">
+										<img src="http://placehold.it/450x375" class="img-responsive">
+									</div>
+									<div class="col-lg-4">
+										<img src="http://placehold.it/450x375" class="img-responsive">
+									</div>
+									<div class="col-lg-4">
+										<img src="http://placehold.it/450x375" class="img-responsive">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-8">
+										<img src="http://placehold.it/900x372" class="img-responsive">
+									</div>
+									<div class="col-lg-4">
+										<img src="http://placehold.it/450x392" class="img-responsive">
+									</div>
+								</div>
+							</div>	
+						</div>
+						<div class="row features">
 							<div class="col-lg-3">
-								<img src="http://placehold.it/300x200" class="img-responsive">
+								<img src="http://placehold.it/450x375" class="img-responsive">
 							</div>
 							<div class="col-lg-3">
-								<img src="http://placehold.it/300x200" class="img-responsive">
+								<img src="http://placehold.it/450x375" class="img-responsive">
 							</div>
+							<div class="col-lg-3">
+								<img src="http://placehold.it/450x375" class="img-responsive">
+							</div>
+							<div class="col-lg-3">
+								<img src="http://placehold.it/450x375" class="img-responsive">
+							</div>
+						</div>
+						<div class="row features">
+							<div class="col-lg-12">
+								<img src="http://placehold.it/1900x800" class="img-responsive">
+							</div>
+						</div>
+						<div class="row features">
+							<div class="col-lg-4">
+								<img src="http://placehold.it/640x375" class="img-responsive">
+							</div>
+							<div class="col-lg-4">
+								<img src="http://placehold.it/640x375" class="img-responsive">
+							</div>
+							<div class="col-lg-4">
+								<img src="http://placehold.it/640x375" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					
+					<div class="footer-partners">
+						<div class="container-fluid">
+							<div class="row">
+							</div>
+						</div>
+					</div>
+					<div class="footer-large">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-lg-4 footer-large-payment">
+									<h3>Pay Securely With...</h3>
+									<span class="flaticon flaticon-visa4"></span>
+									<span class="flaticon flaticon-discover"></span>
+									<span class="flaticon flaticon-master3"></span>
+									<span class="flaticon flaticon-american15"></span>
+									<span class="flaticon flaticon-paypal10"></span>
+								</div>
+								<div class="col-lg-4 footer-large-social">
+									<h3>Follow, Like, Subscribe</h3>
+									
+									<div class="social-links">
+										<a href="#"><span class="fa fa-facebook-square"></span></a>
+										<a href="#"><span class="fa fa-twitter-square"></span></a>
+										<a href="#"><span class="fa fa-google-plus-square"></span></a>
+										<a href="#"><span class="fa fa-youtube-square"></span></a>
+									</div>
+								</div>
+								<div class="col-lg-4 footer-email-subscribe">
+									<h3>Newsletter</h3>
+									<form class="form form-horizontal" role="form">
+										<div class="form-group">
+											<div class="input-group col-lg-12">
+												<input
+													type="email"
+													name="email"
+													spellcheck="false"
+													class="input-lg form-control"
+													placeholder="Email Address">
+											</div>
+											<button class="btn btn-default btn-email-subscribe pull-right" type="submit">Subscribe</button>
+										</div>
+									</form>
+								</div>
+				
+								
+							</div><!-- ./row -->
+						</div><!-- ./container-fluid -->
+					</div><!-- ./footer-large -->
+					
+					<div class="footer" id="footer">
+						<div class="container-fluid">
+							&copy; Copyright 2014 by Mark Stengler. All Rights Reserved | <a href="#">Privacy Policy</a>
+							<a href="#" class="top pull-right"><span class="fa fa-angle-double-up"></span>Top</a>
 						</div>
 					</div>
 							
@@ -109,7 +312,7 @@
 	  <div class="modal-dialog">
 	    <div class="modal-content">
 		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		        <a href="#" class="pull-right" data-dismiss="modal" aria-hidden="true">Close</a>
 		      </div>
 		      <div class="modal-body">
 		       <form class="form">
@@ -247,50 +450,6 @@
 			</div><!-- ./modal-content -->
 		</div><!--./modal-dialog -->
 	</div><!-- ./modal -->
-	
-	<div class="footer-large">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-4">
-					What is here
-				</div>
-				<div class="col-lg-4 footer-large-social">
-					<h3>Follow, Like, Subscribe</h3>
-					
-					<div class="social-links">
-						<span class="fa fa-facebook"></span>
-						<span class="fa fa-twitter"></span>
-						<span class="fa fa-googleplus"></span>
-						<span class="fa fa-youtube"></span>
-					</div>
-				</div>
-				<div class="col-lg-4 footer-email-subscribe">
-					<h3>Newsletter</h3>
-					<form class="form form-horizontal" role="form">
-						<div class="form-group">
-							<div class="input-group col-lg-12">
-								<input
-									type="email"
-									name="email"
-									spellcheck="false"
-									class="input-lg form-control"
-									placeholder="Email Address">
-							</div>
-							<button class="btn btn-default btn-email-subscribe pull-right" type="submit">Subscribe</button>
-						</div>
-					</form>
-				</div>
-
-				
-			</div><!-- ./row -->
-		</div><!-- ./container-fluid -->
-	</div><!-- ./footer-large -->
-	
-	<div class="footer" id="footer">
-		<div class="container-fluid">
-			&copy; Copyright 2014 by Mark Stengler. All Rights Reserved | <a href="#">Privacy Policy</a>
-		</div>
-	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

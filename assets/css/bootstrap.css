@@ -6092,6 +6092,13 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/paymenticons/flaticon.eot");
+  src: url("../fonts/paymenticons/flaticon.svg") format("svg"), url("../fonts/paymenticons/flaticon.eot#iefix") format("embedded-opentype"), url("../fonts/paymenticons/flaticon.woff") format("woff"), url("../fonts/paymenticons/flaticon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .fa {
   display: inline-block;
   font-family: FontAwesome;
@@ -7645,6 +7652,227 @@ button.close {
 .fa-bomb:before {
   content: "\f1e2";
 }
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: 100;
+  text-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+.flaticon-27:before {
+  content: "\e000";
+}
+.flaticon-alipay1:before {
+  content: "\e001";
+}
+.flaticon-amazon4:before {
+  content: "\e002";
+}
+.flaticon-american15:before {
+  content: "\e003";
+}
+.flaticon-asia2:before {
+  content: "\e004";
+}
+.flaticon-atos1:before {
+  content: "\e005";
+}
+.flaticon-bank7:before {
+  content: "\e006";
+}
+.flaticon-bbb:before {
+  content: "\e007";
+}
+.flaticon-bips1:before {
+  content: "\e008";
+}
+.flaticon-bpay:before {
+  content: "\e009";
+}
+.flaticon-cirrus:before {
+  content: "\e00a";
+}
+.flaticon-citibank:before {
+  content: "\e00b";
+}
+.flaticon-clickandbuy:before {
+  content: "\e00c";
+}
+.flaticon-credit59:before {
+  content: "\e00d";
+}
+.flaticon-delta1:before {
+  content: "\e00e";
+}
+.flaticon-diners1:before {
+  content: "\e00f";
+}
+.flaticon-direct:before {
+  content: "\e010";
+}
+.flaticon-discover:before {
+  content: "\e011";
+}
+.flaticon-dwolla1:before {
+  content: "\e012";
+}
+.flaticon-ebay5:before {
+  content: "\e013";
+}
+.flaticon-eco55:before {
+  content: "\e014";
+}
+.flaticon-electronic53:before {
+  content: "\e015";
+}
+.flaticon-eps8:before {
+  content: "\e016";
+}
+.flaticon-euronet:before {
+  content: "\e017";
+}
+.flaticon-eway1:before {
+  content: "\e018";
+}
+.flaticon-gift55:before {
+  content: "\e019";
+}
+.flaticon-google46:before {
+  content: "\e01a";
+}
+.flaticon-heartland:before {
+  content: "\e01b";
+}
+.flaticon-hsbc:before {
+  content: "\e01c";
+}
+.flaticon-izettle:before {
+  content: "\e01d";
+}
+.flaticon-jcb3:before {
+  content: "\e01e";
+}
+.flaticon-klarna1:before {
+  content: "\e01f";
+}
+.flaticon-laser1:before {
+  content: "\e020";
+}
+.flaticon-maestro:before {
+  content: "\e021";
+}
+.flaticon-master3:before {
+  content: "\e022";
+}
+.flaticon-mondex1:before {
+  content: "\e023";
+}
+.flaticon-moneygram1:before {
+  content: "\e024";
+}
+.flaticon-neteller1:before {
+  content: "\e025";
+}
+.flaticon-ogone:before {
+  content: "\e026";
+}
+.flaticon-pay4:before {
+  content: "\e027";
+}
+.flaticon-paymate1:before {
+  content: "\e028";
+}
+.flaticon-payoneer:before {
+  content: "\e029";
+}
+.flaticon-paypal10:before {
+  content: "\e02a";
+}
+.flaticon-paysafecard:before {
+  content: "\e02b";
+}
+.flaticon-payza:before {
+  content: "\e02c";
+}
+.flaticon-popmoney1:before {
+  content: "\e02d";
+}
+.flaticon-realex:before {
+  content: "\e02e";
+}
+.flaticon-recurly1:before {
+  content: "\e02f";
+}
+.flaticon-sage1:before {
+  content: "\e030";
+}
+.flaticon-skrill:before {
+  content: "\e031";
+}
+.flaticon-solo1:before {
+  content: "\e032";
+}
+.flaticon-square90:before {
+  content: "\e033";
+}
+.flaticon-stripe1:before {
+  content: "\e034";
+}
+.flaticon-switch15:before {
+  content: "\e035";
+}
+.flaticon-telecheck1:before {
+  content: "\e036";
+}
+.flaticon-timwe1:before {
+  content: "\e037";
+}
+.flaticon-truste1:before {
+  content: "\e038";
+}
+.flaticon-ukash1:before {
+  content: "\e039";
+}
+.flaticon-unionpay1:before {
+  content: "\e03a";
+}
+.flaticon-verifone1:before {
+  content: "\e03b";
+}
+.flaticon-verisign1:before {
+  content: "\e03c";
+}
+.flaticon-vindicia1:before {
+  content: "\e03d";
+}
+.flaticon-visa4:before {
+  content: "\e03e";
+}
+.flaticon-webmoney:before {
+  content: "\e03f";
+}
+.flaticon-wepay1:before {
+  content: "\e040";
+}
+.flaticon-western:before {
+  content: "\e041";
+}
+.flaticon-wire1:before {
+  content: "\e042";
+}
+.flaticon-wirecard:before {
+  content: "\e043";
+}
+.flaticon-worldpay:before {
+  content: "\e044";
+}
+.flaticon-yandex:before {
+  content: "\e045";
+}
 /* original bs colors */
 .icon:before {
   font-family: 'linecons';
@@ -8318,7 +8546,14 @@ html {
   min-height: 100%;
 }
 body .container-main {
-  padding-top: 100px;
+  min-height: 100%;
+  padding-top: 110px;
+}
+body .container-main .row {
+  margin-bottom: 30px;
+}
+body .container-main .row .row:last-child {
+  margin-bottom: 0;
 }
 .navbar-main {
   height: 80px;
@@ -8359,8 +8594,35 @@ body .container-main {
 .navbar-main .navbar-products {
   display: none;
   height: 400px;
-  margin-top: 10px;
+  margin-top: 0px;
   background-color: #222222;
+  color: #ecf0f1;
+}
+.navbar-main .navbar-products h3 {
+  color: #3498db;
+  font-family: 'Lato';
+  font-weight: 300;
+}
+.navbar-main .navbar-products .list-unstyled {
+  font-size: 16px;
+}
+.navbar-main .navbar-products .list-unstyled li a {
+  width: 100%;
+  padding: 6px 8px;
+  display: block;
+}
+.navbar-main .navbar-products .list-unstyled li a:hover {
+  text-decoration: none;
+  color: #3498db;
+  background-color: #333;
+}
+.navbar-main .navbar-books .media {
+  padding: 7px;
+}
+.navbar-main .navbar-books .media:hover {
+  cursor: pointer;
+  background-color: #333;
+  color: #3498db;
 }
 .modal-search {
   margin: 0;
@@ -8385,7 +8647,10 @@ body .container-main {
 .modal-search .modal-dialog .modal-content .modal-footer {
   border-width: 0;
 }
-.modal-search .modal-dialog .modal-content button.close {
+.modal-search .modal-dialog .modal-content .modal-header {
+  height: 100px;
+}
+.modal-search .modal-dialog .modal-content .modal-header a {
   color: #ecf0f1;
   font-size: 32px;
 }
@@ -8414,7 +8679,7 @@ body .container-main {
   font-size: 32px;
   font-family: 'Lato';
   font-weight: 300;
-  width: 95%;
+  width: 100%;
   outline: none;
 }
 .modal-search .modal-dialog .modal-content form input[type=search]:focus {
@@ -8571,9 +8836,60 @@ body .container-main {
   background-color: transparent;
   color: #3498db;
 }
+.st-menu .media {
+  padding: 20px;
+  color: #ecf0f1;
+  font-size: 12px;
+  border-bottom: 1px solid #333;
+}
+.st-menu .media h4 {
+  font-size: 18px;
+  font-family: 'Lato';
+  font-weight: 300;
+  color: #ffffff;
+}
+.st-menu .media .shopping-cart-price {
+  margin-top: 5px;
+  font-size: 14px;
+  display: block;
+  color: #3498db;
+  text-align: right;
+}
+.st-menu .actions {
+  padding: 20px;
+}
+.st-menu .actions button {
+  border-radius: 50px;
+  width: 150px;
+  padding-top: 4px;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  font-size: 18px;
+  color: #ffffff;
+}
+.st-menu .actions button:hover {
+  background-color: transparent;
+  color: #3498db;
+}
+.st-menu .totals {
+  padding: 20px;
+  color: #2980b9;
+  font-size: 22px;
+  text-align: right;
+  background-color: #333;
+}
+.footer-partners {
+  width: 100%;
+  height: 200px;
+  background-color: #ecf0f1;
+  padding: 30px 30px 0px 30px;
+}
+.footer-partners .row {
+  margin-bottom: 0;
+}
 .footer-large {
   width: 100%;
-  height: 300px;
+  height: 260px;
   background-color: #222;
   color: #ecf0f1;
   font-family: 'Lato';
@@ -8587,12 +8903,32 @@ body .container-main {
   margin-bottom: 20px;
   letter-spacing: 1px;
 }
-.footer-large .footer-large-social .social-links .fa {
-  font-size: 32px;
+.footer-large .footer-large-payment .flaticon {
+  font-size: 55px;
+  color: #bdc3c7;
+}
+.footer-large .footer-large-social .social-links a {
+  font-size: 46px;
   margin-right: 15px;
+}
+.footer-large .footer-large-social .social-links a:last-child {
+  margin-right: 0;
+}
+.footer-large .footer-large-social .social-links a:hover {
+  color: #3498db;
 }
 .footer-large .footer-email-subscribe form {
   padding: 0 25px;
+}
+.footer-large .footer-email-subscribe form .input-group:before {
+  color: #bdc3c7;
+  width: 34px;
+  font-family: 'Linecons';
+  content: '\e01f';
+  font-size: 24px;
+  position: absolute;
+  left: -4px;
+  top: 7px;
 }
 .footer-large .footer-email-subscribe form input[type=email] {
   border-radius: 0;
@@ -8605,10 +8941,6 @@ body .container-main {
   font-size: 24px;
   margin-bottom: 15px;
   color: #3498db;
-  background-image: url(/assets/img/icons/linecons/png/mail.png);
-  background-repeat: no-repeat;
-  background-size: 24px;
-  background-position: left center;
 }
 .footer-large .footer-email-subscribe form button[type=submit] {
   border-radius: 50px;
