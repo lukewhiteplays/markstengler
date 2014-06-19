@@ -20,7 +20,7 @@ html{
 body{
 	.container-main{
 		min-height:100%;
-		padding-top:110px;
+		padding-top:80px;
 		.row{
 			margin-bottom:@grid-gutter-width;
 			.row{
@@ -540,8 +540,47 @@ body{
 		}
 	}
 }
-			
-
+	
+.cart-nav{
+	.nav{
+		li{
+			a{
+				padding-top:30px;
+				padding-bottom:30px;
+				border-top-width:0;
+				border-radius:0;
+				font-size:24px;
+				font-family:'Lato';
+				font-weight:100;
+				-webkit-font-smoothing: antialiased;
+				.fa{
+					font-size:32px;
+					font-weight:100;
+					-webkit-font-smoothing: antialiased;
+				}
+			}
+			&.active{
+				a{
+					color:@alizarin;
+					border-top-width:0;
+				}
+			}
+		}
+	}
+	
+}		
+.cart-pager{
+	.next{
+		a{
+			border-color:@alizarin;
+			color:@alizarin;
+			&:hover{
+				background-color:@alizarin;
+				color:@white;
+			}
+		}
+	}
+}
 
 .footer-partners{
 	width:100%;
