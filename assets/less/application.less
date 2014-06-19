@@ -397,7 +397,37 @@ body{
 }
 
 .product-single{
-	.product-image{}
+	.product-image{
+		.product-image-footer{
+			margin-top:15px;
+			.product-image-thumbnails{				
+				img{
+					cursor:pointer;
+					margin-right:10px;
+				}
+			}
+			.product-rating{
+				.product-rating-stars{
+					padding:5px 15px;
+					font-size:28px;
+					color:@alizarin;
+				}
+				button{
+					margin-top:7px;
+					margin-right:15px;
+					border-radius:40px;
+					border-width:2px;
+					background-color:@alizarin;
+					border-color:@alizarin;
+					color:@white;
+					&:hover{
+						background-color:@white;
+						color:@alizarin;
+					}
+				}
+			}
+		}
+	}
 	.product-summary{
 		.product-header{
 			padding-bottom:15px;
@@ -469,11 +499,49 @@ body{
 						margin-bottom:25px;
 					}
 				}
+				&.product-videos{
+					
+				}
+				&.product-reviews{
+					form{
+						label{
+							padding-top:14px;
+						}
+					}
+				}
 			}
 		}
 		
 	}
 }
+
+.modal-product-video{
+	top:65px;
+	.modal-dialog{
+		.modal-content{
+			border-radius:0;
+			color:@clouds;
+			background-color:black;
+			box-shadow:none;
+			.modal-header,.modal-body,.modal-footer{
+				border-width:0;
+			}
+			.modal-header{
+				.modal-title{
+					text-align:center;
+				}
+				button{
+					&.close{
+						font-size:32px;
+						
+					}
+				}
+			}
+		}
+	}
+}
+			
+
 
 .footer-partners{
 	width:100%;

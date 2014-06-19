@@ -203,6 +203,22 @@
 			</div><!-- ./modal-content -->
 		</div><!--./modal-dialog -->
 	</div><!-- ./modal -->
+	
+	
+	<!-- Video Modal -->
+	<div class="modal modal-product-video fade" id="modal-product-video" tabindex="-1" role="dialog" aria-labelledby="modal-video-label" aria-hidden="true">
+	  <div class="modal-dialog modal-lg">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">All About Mega Flora</h4>
+	      </div>
+	      <div class="modal-body">
+	        <img src="/assets/img/placeholder/videoPlaceholder.jpg" class="" style="width:870px;margin:0 auto;">
+	      </div>
+	    </div>
+	  </div>
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
