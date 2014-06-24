@@ -547,25 +547,42 @@ body{
 			a{
 				padding-top:30px;
 				padding-bottom:30px;
-				border-top-width:0;
+				border-width:0 0 3px 0;
+				border-color:@gray-lighter;
 				border-radius:0;
 				font-size:24px;
 				font-family:'Lato';
-				font-weight:100;
+				font-weight:300;
 				-webkit-font-smoothing: antialiased;
+				color:@gray-light;
+				background-color:#fafafa;
 				.fa{
-					font-size:32px;
+					font-size:24px;
 					font-weight:100;
 					-webkit-font-smoothing: antialiased;
+				}
+				&:hover{
+					color:@gray;
+					border-color:@gray-light;
 				}
 			}
 			&.active{
 				a{
 					color:@alizarin;
-					border-top-width:0;
+					border-width:0 0 3px 0;
+					border-color:@alizarin;
+					background-color:@white;
+					&:hover{
+						color:@alizarin;
+						border-width:0 0 3px 0;
+						border-color:@alizarin;
+					}
 				}
 			}
 		}
+	}
+	&.row{
+		margin-bottom:0px !important;
 	}
 	
 }		
@@ -577,8 +594,110 @@ body{
 			&:hover{
 				background-color:@alizarin;
 				color:@white;
+				
 			}
 		}
+	}
+}
+
+.cart-products{
+	table{
+		margin:0;
+		thead{
+			tr{
+				th{
+					background-color:lighten(@alizarin,30%);
+					color:@pomegranate;
+					border-width:0;
+					font-weight:300;
+				}
+			}
+		}
+		tbody{
+			tr{
+				td{
+					color:@gray;
+					&.price, &.total{
+						font-size:20px;
+						font-weight:300;
+					}
+				}
+			}
+		}
+		tfoot{
+			font-size:24px;
+			font-weight:300;
+			font-family:'Lato';
+			color:@pomegranate;
+		}
+	}
+	input[type=number]{
+		border-width:0;
+		outline:none;
+		box-shadow:none;
+		width:45px;
+		padding:5px 10px;
+		text-align:center;
+	}
+}
+
+.cart-actions{
+	padding:0 !important;
+	button{
+		margin-top:7px;
+		margin-right:15px;
+		border-radius:40px;
+		border-width:2px;
+		&.btn-danger{
+			background-color:@alizarin;
+			border-color:@alizarin;
+			color:@white;
+			&:hover{
+				background-color:@white;
+				color:@alizarin;
+				border-color:@alizarin;
+			}
+		}
+		
+		&.btn-default{
+			background-color:@concrete;
+			border-color:@concrete;
+			color:@white;
+			&:hover{
+				background-color:@white;
+				color:@concrete;
+				border-color:@concrete;
+			}
+		}
+		&:last-child{
+			margin-right:0;
+		}
+	}
+	
+}
+
+.promo-code{
+	background-color:@clouds;
+	padding:15px 5px;
+	label{
+		padding-right:15px;
+		font-weight:300;
+		font-family:'Lato';
+		color:@concrete;
+	}
+	input{
+		border-width:0;
+		box-shadow:none;
+		outline:none;
+		margin-right:15px;
+		font-weight:300;
+	}
+	button{
+		border-radius:0;
+		font-weight:300;
+		font-family:'Lato';
+		margin-left:15px;
+		background-color:@concrete;
 	}
 }
 

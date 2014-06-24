@@ -8987,21 +8987,38 @@ body .container-main .row .row:last-child {
 .cart-nav .nav li a {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-top-width: 0;
+  border-width: 0 0 3px 0;
+  border-color: #eeeeee;
   border-radius: 0;
   font-size: 24px;
   font-family: 'Lato';
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  color: #999999;
+  background-color: #fafafa;
+}
+.cart-nav .nav li a .fa {
+  font-size: 24px;
   font-weight: 100;
   -webkit-font-smoothing: antialiased;
 }
-.cart-nav .nav li a .fa {
-  font-size: 32px;
-  font-weight: 100;
-  -webkit-font-smoothing: antialiased;
+.cart-nav .nav li a:hover {
+  color: #555555;
+  border-color: #999999;
 }
 .cart-nav .nav li.active a {
   color: #e74c3c;
-  border-top-width: 0;
+  border-width: 0 0 3px 0;
+  border-color: #e74c3c;
+  background-color: #ffffff;
+}
+.cart-nav .nav li.active a:hover {
+  color: #e74c3c;
+  border-width: 0 0 3px 0;
+  border-color: #e74c3c;
+}
+.cart-nav.row {
+  margin-bottom: 0px !important;
 }
 .cart-pager .next a {
   border-color: #e74c3c;
@@ -9010,6 +9027,93 @@ body .container-main .row .row:last-child {
 .cart-pager .next a:hover {
   background-color: #e74c3c;
   color: #ffffff;
+}
+.cart-products table {
+  margin: 0;
+}
+.cart-products table thead tr th {
+  background-color: #f8c9c4;
+  color: #c0392b;
+  border-width: 0;
+  font-weight: 300;
+}
+.cart-products table tbody tr td {
+  color: #555555;
+}
+.cart-products table tbody tr td.price,
+.cart-products table tbody tr td.total {
+  font-size: 20px;
+  font-weight: 300;
+}
+.cart-products table tfoot {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Lato';
+  color: #c0392b;
+}
+.cart-products input[type=number] {
+  border-width: 0;
+  outline: none;
+  box-shadow: none;
+  width: 45px;
+  padding: 5px 10px;
+  text-align: center;
+}
+.cart-actions {
+  padding: 0 !important;
+}
+.cart-actions button {
+  margin-top: 7px;
+  margin-right: 15px;
+  border-radius: 40px;
+  border-width: 2px;
+}
+.cart-actions button.btn-danger {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: #ffffff;
+}
+.cart-actions button.btn-danger:hover {
+  background-color: #ffffff;
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+.cart-actions button.btn-default {
+  background-color: #95a5a6;
+  border-color: #95a5a6;
+  color: #ffffff;
+}
+.cart-actions button.btn-default:hover {
+  background-color: #ffffff;
+  color: #95a5a6;
+  border-color: #95a5a6;
+}
+.cart-actions button:last-child {
+  margin-right: 0;
+}
+.promo-code {
+  background-color: #ecf0f1;
+  padding: 15px 5px;
+}
+.promo-code label {
+  padding-right: 15px;
+  font-weight: 300;
+  font-family: 'Lato';
+  color: #95a5a6;
+}
+.promo-code input {
+  border-width: 0;
+  box-shadow: none;
+  outline: none;
+  margin-right: 15px;
+  font-weight: 300;
+}
+.promo-code button {
+  border-radius: 0;
+  font-weight: 300;
+  font-family: 'Lato';
+  margin-left: 15px;
+  background-color: #95a5a6;
 }
 .footer-partners {
   width: 100%;
