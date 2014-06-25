@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -9187,6 +9188,25 @@ body .container-main .row .row:last-child {
   font-weight: 300;
   color: #999999;
 }
+.cart-shipping form .twitter-typeahead,
+.cart-billing form .twitter-typeahead {
+  display: block !important;
+}
+.cart-shipping form .tt-hint,
+.cart-billing form .tt-hint {
+  top: 4px !important;
+}
+.cart-shipping form .tt-dropdown-menu,
+.cart-billing form .tt-dropdown-menu {
+  border-width: 0;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.cart-shipping form .tt-dropdown-menu .tt-dataset-states li:hover,
+.cart-billing form .tt-dropdown-menu .tt-dataset-states li:hover {
+  background-color: #c0392b;
+  color: #ffffff;
+}
 .cart-shipping form input,
 .cart-billing form input {
   border-width: 0 0 3px 0;
@@ -9269,12 +9289,15 @@ body .container-main .row .row:last-child {
   background-image: linear-gradient(to bottom, #3498db 0%, #2980b9 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3498db', endColorstr='#ff2980b9', GradientType=0);
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .cart-payment .col-credit-card h4 {
   color: #ffffff;
   font-weight: 300;
   padding: 18px;
+}
+.cart-payment .col-credit-card h4 img {
+  float: right;
 }
 .cart-payment .col-credit-card form {
   padding: 20px 0px 25px 0px;
@@ -9291,6 +9314,12 @@ body .container-main .row .row:last-child {
   border-color: #2472a4;
   box-shadow: 0px 1px 2px #75b9e7;
   font-weight: 300;
+}
+.cart-payment .col-credit-card form input[name=credit_card_number] {
+  font-family: 'Cutive Mono';
+}
+.cart-payment .col-credit-card form input[name=credit_card_name] {
+  text-transform: capitalize;
 }
 .cart-payment .col-credit-card form .btn-default {
   border-radius: 3px;
@@ -9315,6 +9344,14 @@ body .container-main .row .row:last-child {
   background-color: #ffffff;
   color: #e74c3c;
   border-color: #e74c3c;
+}
+.cart-payment .col-paypal {
+  margin-top: 50px;
+  height: 370px;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 90px;
 }
 .footer-partners {
   width: 100%;
@@ -9408,5 +9445,53 @@ body .container-main .row .row:last-child {
 }
 .footer a {
   color: #3498db;
+}
+.twitter-typeahead .tt-query,
+.twitter-typeahead .tt-hint {
+  margin-bottom: 0;
+}
+.tt-hint {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #999;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.tt-dropdown-menu {
+  min-width: 160px;
+  margin-top: 2px;
+  padding: 5px 0;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.tt-suggestion {
+  display: block;
+  padding: 3px 20px;
+}
+.tt-suggestion.tt-is-under-cursor {
+  color: #fff;
+  background-color: #c0392b;
+  color: #ffffff;
+}
+.tt-suggestion.tt-is-under-cursor a {
+  color: #fff;
+}
+.tt-suggestion p {
+  margin: 0;
 }
 /*# sourceMappingURL=bootstrap.css.map */
