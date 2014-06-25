@@ -8617,6 +8617,13 @@ body .container-main .row .row:last-child {
   color: #3498db;
   background-color: #333;
 }
+.navbar-main .navbar-products .navbar-services-wrapper {
+  overflow-y: scroll;
+  max-height: 305px;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+  padding-top: 15px;
+}
 .navbar-main .navbar-books .media {
   padding: 7px;
 }

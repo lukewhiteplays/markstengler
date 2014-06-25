@@ -119,7 +119,7 @@
 					  	<div class="navbar-products">
 					  		<div class="container-fluid">
 					  			<div class="row">
-					  				<div class="col-lg-4">
+					  				<div class="col-lg-4 navbar-supplements">
 						  				<h3>Dietary Supplements</h3>
 						  				<div class="col-lg-6">
 							  				<ul class="list-unstyled">
@@ -180,52 +180,54 @@
 					  					</div>
 					  					
 					  				</div>
-					  				<div class="col-lg-4">
+					  				<div class="col-lg-4 navbar-services">
 					  					<h3>Services</h3>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
-					  					</div>
-					  					<div class="col-lg-4">
-					  						<a href="#" class="thumbnail">
-					  							<img src="http://placehold.it/120x120">
-					  						</a>
+					  					<div class="row navbar-services-wrapper">
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
+						  					<div class="col-lg-4">
+						  						<a href="#" class="thumbnail">
+						  							<img src="http://placehold.it/250x250">
+						  						</a>
+						  					</div>
 					  					</div>
 					  			</div><!-- ./row -->						  			
 					  		</div>

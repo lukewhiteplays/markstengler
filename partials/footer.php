@@ -240,6 +240,18 @@
     		productsWrapper.slideToggle();
     	});
     	
+    	var products = $('.navbar-products'),
+    		services = products.find('.navbar-services-wrapper');
+    		
+    	if(services.length){
+	    	services.on('scroll',function(e){
+	    		services.css('border-color','#000');
+	    		services.css('box-shadow','inset 0px 20px 20px -20px #444');
+	    		services.css('box-shadow','inset 0px -20px 20px -20px #444');
+	    		
+	    	});
+    	}
+    	
     	$('.search-trigger').on('click',function(e){
     		e.preventDefault();
     		var $input = $('.modal-search').find('input[type=search]');
