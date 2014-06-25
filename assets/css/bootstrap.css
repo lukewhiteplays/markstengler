@@ -8879,6 +8879,12 @@ body .container-main .row .row:last-child {
   text-align: right;
   background-color: #333;
 }
+.features {
+  margin-top: 20px;
+}
+.product-single {
+  margin-top: 15px;
+}
 .product-single .product-image .product-image-footer {
   margin-top: 15px;
 }
@@ -9032,6 +9038,14 @@ body .container-main .row .row:last-child {
 .cart-details .cart-products tbody tr td {
   color: #555555;
 }
+.cart-details .cart-products tbody tr td.detail .media .media-body {
+  font-weight: 300;
+  font-size: 15px;
+}
+.cart-details .cart-products tbody tr td.detail .media .media-body .media-heading {
+  font-family: 'Ubuntu';
+  color: #c0392b;
+}
 .cart-details .cart-products tbody tr td.price,
 .cart-details .cart-products tbody tr td.total {
   font-size: 20px;
@@ -9041,19 +9055,28 @@ body .container-main .row .row:last-child {
 .cart-details .cart-products tbody tr td.quantity {
   vertical-align: middle;
 }
-.cart-details .cart-products tfoot {
-  font-size: 24px;
-  font-weight: 300;
-  font-family: 'Lato';
-  color: #c0392b;
-}
-.cart-details .cart-products input[type=number] {
-  border-width: 0;
+.cart-details .cart-products tbody tr td.quantity input[type=number] {
+  border-width: 0 0px 2px 0;
+  border-color: #c0392b;
   outline: none;
   box-shadow: none;
   width: 45px;
   padding: 5px 10px;
   text-align: center;
+}
+.cart-details .cart-products tbody tr td.quantity .fa {
+  color: #c0392b;
+  margin-left: 5px;
+}
+.cart-details .cart-products tbody tr td.quantity .fa:hover {
+  cursor: pointer;
+  color: #e74c3c;
+}
+.cart-details .cart-products tfoot {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Lato';
+  color: #c0392b;
 }
 .cart-details .promo-code {
   margin-bottom: 15px;
@@ -9282,7 +9305,7 @@ body .container-main .row .row:last-child {
   background-color: #c0392b;
 }
 .cart-payment .col-credit-card {
-  margin-top: 50px;
+  margin-top: 35px;
   min-height: 200px;
   background-image: -webkit-linear-gradient(top, #3498db 0%, #2980b9 100%);
   background-image: -o-linear-gradient(top, #3498db 0%, #2980b9 100%);
@@ -9346,12 +9369,69 @@ body .container-main .row .row:last-child {
   border-color: #e74c3c;
 }
 .cart-payment .col-paypal {
-  margin-top: 50px;
+  margin-top: 35px;
   height: 370px;
   background-color: #ecf0f1;
   border-radius: 6px;
   text-align: center;
   padding-top: 90px;
+}
+.cart-review {
+  padding-top: 15px;
+}
+.cart-review .cart-review-details .media-list .media .media-body {
+  padding-top: 5px;
+  vertical-align: middle;
+}
+.cart-review .cart-review-details .media-list .media .media-body .cart-review-detail-price {
+  font-family: 'Lato';
+  font-weight: 300;
+  color: #c0392b;
+}
+.cart-review .cart-review-details .media-list .media.sub-total {
+  margin-bottom: 5px;
+  padding-top: 10px;
+  border-top: 1px solid #ecf0f1;
+}
+.cart-review .cart-review-details .media-list .media.sub-total .media-body .media-heading .price {
+  color: #7f8c8d;
+  font-weight: 300;
+}
+.cart-review .cart-review-details .media-list .media.taxes,
+.cart-review .cart-review-details .media-list .media.shipping {
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.cart-review .cart-review-details .media-list .media.taxes .media-body .media-heading,
+.cart-review .cart-review-details .media-list .media.shipping .media-body .media-heading {
+  font-weight: 300 !important;
+  color: #555555 !important;
+  font-size: 14px;
+}
+.cart-review .cart-review-details .media-list .media.taxes .media-body .media-heading .price,
+.cart-review .cart-review-details .media-list .media.shipping .media-body .media-heading .price {
+  color: #95a5a6;
+  font-weight: 300 !important;
+}
+.cart-review .cart-review-shipping .panel .panel-footer button,
+.cart-review .cart-review-billing .panel .panel-footer button {
+  border-radius: 0;
+}
+.cart-review .cart-review-actions .btn-next {
+  border-radius: 40px;
+  border-width: 2px;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: #ffffff;
+  font-weight: 300;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 15px;
+}
+.cart-review .cart-review-actions .btn-next:hover {
+  background-color: #ffffff;
+  color: #e74c3c;
+  border-color: #e74c3c;
 }
 .footer-partners {
   width: 100%;

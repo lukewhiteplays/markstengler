@@ -397,7 +397,12 @@ body{
 	}
 }
 
+.features{
+	margin-top:20px;
+}
+
 .product-single{
+	margin-top:15px;
 	.product-image{
 		.product-image-footer{
 			margin-top:15px;
@@ -604,6 +609,19 @@ body{
 			tr{
 				td{
 					color:@gray;
+					&.detail{
+						.media{
+							
+							.media-body{
+								font-weight:300;
+								font-size:15px;
+								.media-heading{
+									font-family:'Ubuntu';
+									color:@pomegranate;
+								}
+							}
+						}
+					}
 					&.price, &.total{
 						font-size:20px;
 						font-weight:300;
@@ -611,6 +629,23 @@ body{
 					}
 					&.quantity{
 						vertical-align:middle;
+						input[type=number]{
+							border-width:0 0px 2px 0;
+							border-color:@pomegranate;
+							outline:none;
+							box-shadow:none;
+							width:45px;
+							padding:5px 10px;
+							text-align:center;
+						}
+						.fa{
+							color:@pomegranate;
+							margin-left:5px;
+							&:hover{
+								cursor:pointer;
+								color:@alizarin;
+							}
+						}
 					}
 				}
 			}
@@ -621,14 +656,7 @@ body{
 			font-family:'Lato';
 			color:@pomegranate;
 		}
-		input[type=number]{
-			border-width:0;
-			outline:none;
-			box-shadow:none;
-			width:45px;
-			padding:5px 10px;
-			text-align:center;
-		}
+		
 	}
 	
 	
@@ -862,7 +890,7 @@ body{
 
 .cart-payment{
 	.col-credit-card{
-		margin-top:50px;
+		margin-top:35px;
 		min-height:200px;
 		#gradient.vertical(@peter-river;@belize-hole;0%;100%);
 		border-radius:10px;
@@ -922,12 +950,87 @@ body{
 		}
 	}
 	.col-paypal{
-		margin-top:50px;
+		margin-top:35px;
 		height:370px;
 		background-color:@clouds;
 		border-radius:6px;
 		text-align:center;
 		padding-top:90px;
+	}
+}
+
+.cart-review{
+	padding-top:15px;
+	.cart-review-details{
+		.media-list{
+			.media{
+				.media-body{
+					padding-top:5px;
+					vertical-align:middle;
+					.cart-review-detail-price{
+						font-family:'Lato';
+						font-weight:300;
+						color:@pomegranate;
+					}
+				}
+				&.sub-total{
+					margin-bottom:5px;
+					padding-top:10px;
+					border-top:1px solid @clouds;
+					.media-body{
+						.media-heading{
+							.price{
+								color:@asbestos;
+								font-weight:300;
+							}
+						}
+					}
+				}
+				&.taxes, &.shipping{
+					margin-bottom:0px;
+					margin-top:0;
+					.media-body{
+						.media-heading{
+							font-weight:300 !important;
+							color:@gray !important;
+							font-size:14px;
+							.price{
+								color:@concrete; 
+								font-weight:300 !important;
+							}
+						}
+					}
+					
+				}
+			}
+		}
+	}
+	.cart-review-shipping, .cart-review-billing{
+		.panel{
+			.panel-footer{
+				button{
+					border-radius:0;
+				}
+			}
+		}
+	}
+	.cart-review-actions{
+		.btn-next{
+			border-radius:40px;
+			border-width:2px;
+			background-color:@alizarin;
+			border-color:@alizarin;
+			color:@white;
+			font-weight:300;
+			padding-left:25px;
+			padding-right:25px;
+			margin-left:15px;
+			&:hover{
+				background-color:@white;
+				color:@alizarin;
+				border-color:@alizarin;
+			}
+		}
 	}
 }
 

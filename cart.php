@@ -39,13 +39,13 @@
 			</thead>
 			<tbody>
 				<tr>
-					<td>
+					<td class="detail">
 						<div class="media">
 							<a href="#" class="pull-left">
 								<img src="http://placehold.it/64x64" class="media-object">
 							</a>
 							<div class="media-body">
-								<h5 class="media-heading">Mega Flora</h5>
+								<h4 class="media-heading">Mega Flora</h4>
 								Foods that heal; natural cures that work better than drugs; new breakthroughs in holistic medicine
 							</div>
 						</div>
@@ -53,17 +53,18 @@
 					<td class="price">$56.73</td>
 					<td class="quantity">				
 						<input type="number" class="input-xs" value="1">
+						<i class="fa fa-trash-o fa-lg"></i>
 					</td>
 					<td class="total">$56.73</td>
 				</tr>
 				<tr>
-					<td>
+					<td class="detail">
 						<div class="media">
 							<a href="#" class="pull-left">
 								<img src="http://placehold.it/64x64" class="media-object">
 							</a>
 							<div class="media-body">
-								<h5 class="media-heading">Mega Flora</h5>
+								<h4 class="media-heading">Mega Flora</h4>
 								Foods that heal; natural cures that work better than drugs; new breakthroughs in holistic medicine
 							</div>
 						</div>
@@ -71,17 +72,18 @@
 					<td class="price">$56.73</td>
 					<td class="quantity">					
 						<input type="number" class="input-xs" value="1">
+						<i class="fa fa-trash-o fa-lg"></i>
 					</td>
 					<td class="total">$56.73</td>
 				</tr>
 				<tr>
-					<td>
+					<td class="detail">
 						<div class="media">
 							<a href="#" class="pull-left">
 								<img src="http://placehold.it/64x64" class="media-object">
 							</a>
 							<div class="media-body">
-								<h5 class="media-heading">Mega Flora</h5>
+								<h4 class="media-heading">Mega Flora</h4>
 								Foods that heal; natural cures that work better than drugs; new breakthroughs in holistic medicine
 							</div>
 						</div>
@@ -89,6 +91,7 @@
 					<td class="price">$56.73</td>
 					<td class="quantity">
 						<input type="number" class="input-xs" value="1">
+						<i class="fa fa-trash-o fa-lg"></i>
 					</td>
 					<td class="total">$56.73</td>
 				</tr>
@@ -125,7 +128,7 @@
 	</div><!-- ./tab-pane ./cart-cart -->
 	
 	<div class="row tab-pane cart-login" id="cart-login">
-		<div class="col-lg-5">
+		<div class="col-lg-5 col-lg-offset-1">
 			<h3>Returning Customers</h3>
 			<p class="lead">If you have an account with us, log in using your username.</p>
 			<form class="form form-login" role="form">
@@ -156,7 +159,7 @@
 			</form>
 		</div>
 		
-		<div class="col-lg-5 col-lg-offset-1 col-form-register">
+		<div class="col-lg-5 col-form-register">
 			<h3>New Customers</h3>
 			<form class="form form-register" role="form">
 				<div class="form-group">
@@ -427,14 +430,166 @@
 		<div class="col-lg-5 col-md-5 col-paypal">
 			<img src="/assets/img/paypal.png" class="img-responsive" />
 		</div>
-		<div class="col-lg-6 text-center">
+		<div class="col-lg-5 col-md-5 col-lg-offset-1 text-center">
 			<h4>Pay with Credit Card</h4>
 		</div>
-		<div class="col-lg-6 text-center">
+		<div class="col-lg-5 col-md-5 text-center">
 			<h4>Pay with PayPal</h4>
 		</div>
 		<div class="col-lg-12 text-right">
 			<button class="btn btn-danger btn-next btn-lg">Review <span class="fa fa-long-arrow-right"></span></button>
+		</div>
+	</div><!-- ./cart-payment -->
+	
+	<!-- cart-review-->
+	<div class="row tab-pane cart-review" id="cart-review">
+		<div class="col-lg-3 cart-review-details">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">Cart Details</h3>
+				</div>
+				<div class="panel-body">
+					<ul class="media-list">
+						<li class="media">
+							<a href="#" class="pull-left">
+								<img src="http://placehold.it/32x32" class="media-object">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Mega Flora
+									<span class="cart-review-detail-price pull-right">$53.20</span>
+								</h4>
+								
+							</div>
+						</li>
+							
+						<li class="media">
+							<a href="#" class="pull-left">
+								<img src="http://placehold.it/32x32" class="media-object">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">Vitamin C
+									<span class="cart-review-detail-price pull-right">$16.58</span>
+								</h4>
+								
+							</div>
+						</li>
+						
+						<li class="media">
+							<a href="#" class="pull-left">
+								<img src="http://placehold.it/32x32" class="media-object">
+							</a>
+							<div class="media-body">
+								<h4 class="media-heading">IV Therapy
+									<span class="cart-review-detail-price pull-right">$116.58</span>
+								</h4>
+								
+							</div>
+						</li>
+						
+						<li class="media sub-total">
+							<div class="media-body">
+								<h4 class="media-heading">Sub Total
+									<span class="price pull-right">$182.03</span>
+								</h4>	
+							</div>
+						</li>
+						
+						<li class="media taxes">
+							<div class="media-body">
+								<h4 class="media-heading">Taxes
+									<span class="price pull-right">$8.24</span>
+								</h4>	
+							</div>
+						</li>
+						<li class="media shipping">
+							<div class="media-body">
+								<h4 class="media-heading">Shipping
+									<span class="price pull-right">$32.93</span>
+								</h4>	
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="panel-footer">
+					<h4 class="total">Total
+						<span class="price pull-right">$212.45</span>
+					</h4>	
+				</div>
+			</div><!-- ./panel -->
+		</div><!-- ./col-lg-3 -->		
+		
+		<div class="col-lg-3 cart-review-shipping">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">Shipping Address</h4>
+				</div>
+				<div class="panel-body">
+					<address>
+						<strong>Christopher L White</strong><br>
+						11613 Moorpark St<br>
+						Apt 5<br>
+						North Hollywood, CA<br>
+						91602<br>
+						347-967-6767
+					</address>
+				</div>
+				<div class="panel-footer text-right">
+					<button class="btn btn-danger btn-xs"><span class="fa fa-pencil"></span> Edit</button>
+					<button class="btn btn-default btn-xs"><span class="fa fa-check"></span> Save</button>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="col-lg-3 cart-review-billing">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">Billing Address</h4>
+				</div>
+				<div class="panel-body">
+					<address>
+						<strong>Christopher L White</strong><br>
+						11613 Moorpark St<br>
+						Apt 5<br>
+						North Hollywood, CA<br>
+						91602<br>
+						347-967-6767
+					</address>
+				</div>
+				<div class="panel-footer text-right">
+					<button class="btn btn-danger btn-xs"><span class="fa fa-pencil"></span> Edit</button>
+					<button class="btn btn-default btn-xs"><span class="fa fa-check"></span> Save</button>
+				</div>
+			</div><!-- ./panel -->
+		</div><!-- ./col-lg-3 -->	
+		
+		<div class="col-lg-3 cart-review-payment">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">Payment Details</h4>
+				</div>
+				<div class="panel-body">
+					<div class="media">
+						<a href="#" class="pull-left">
+							<img src="/assets/img/icons/visa.png" class="img-responsive">
+						</a>
+						<div class="media-body">
+							Christopher L White
+							<br> Card ending in *349
+							<br> Expires 04/19
+						</div>
+					</div>
+				</div>
+				<div class="panel-footer text-right">
+					<button class="btn btn-danger btn-xs"><span class="fa fa-pencil"></span> Edit</button>
+					<button class="btn btn-default btn-xs"><span class="fa fa-check"></span> Save</button>
+				</div>
+			</div>
+			
+			
+		</div><!-- ./cart-review-payment -->
+		<div class="col-lg-12 cart-review-actions text-right">
+			Click "Finalize" to complete your purchase <span class="fa fa-angle-double-right"></span> 
+			<button class="btn btn-lg btn-danger btn-next" type="button">Finalize</button>
 		</div>
 	</div>	
 </div>

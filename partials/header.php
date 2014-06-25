@@ -182,6 +182,51 @@
 					  				</div>
 					  				<div class="col-lg-4">
 					  					<h3>Services</h3>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
+					  					<div class="col-lg-4">
+					  						<a href="#" class="thumbnail">
+					  							<img src="http://placehold.it/120x120">
+					  						</a>
+					  					</div>
 					  			</div><!-- ./row -->						  			
 					  		</div>
 						</div>
