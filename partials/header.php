@@ -184,47 +184,47 @@
 					  					<h3>Services</h3>
 					  					<div class="row navbar-services-wrapper">
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
 						  					<div class="col-lg-4">
-						  						<a href="#" class="thumbnail">
+						  						<a href="/services/" class="thumbnail">
 						  							<img src="http://placehold.it/250x250">
 						  						</a>
 						  					</div>
