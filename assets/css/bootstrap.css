@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
@@ -9593,7 +9593,7 @@ body .container-main .row .row:last-child {
   margin-top: 20px;
 }
 .wiki-single .tab-content .lead {
-  font-weight: 200;
+  font-weight: 300;
   color: #4e5758;
 }
 .wiki-single .tab-content .lead a {
@@ -9606,6 +9606,7 @@ body .container-main .row .row:last-child {
 .wiki-single .tab-content .wiki-single-sidebar .wiki-featured-image {
   border-bottom: 5px solid #e74c3c;
   margin-top: 5px;
+  width: 100%;
 }
 .wiki-single .tab-content .wiki-single-sidebar .panel {
   margin-top: 15px;
@@ -9618,6 +9619,43 @@ body .container-main .row .row:last-child {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+.wiki-single .tab-content .tab-pane#symptoms .symptoms-summary .lead {
+  font-size: 44px;
+  font-weight: 100;
+}
+.wiki-single .tab-content .tab-pane#symptoms .symptoms-summary .lead strong {
+  font-weight: 200;
+  color: #c0392b;
+}
+.wiki-single .tab-content .tab-pane#symptoms .symptoms-list li {
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-right: 7px;
+  border-radius: 2px;
+  background-color: #95a5a6;
+}
+.wiki-single .tab-content .tab-pane#symptoms .symptoms-note .well {
+  border-radius: 0;
+  margin-left: 0;
+  border-width: 0;
+  box-shadow: none;
+}
+.wiki-single .tab-content .tab-pane#symptoms .symptoms-note .well h3 {
+  border-bottom: 4px solid #7f8c8d;
+  font-weight: 200;
+  font-family: 'Lato';
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+.wiki-single .tab-content .tab-pane#symptoms .symptoms-note .well p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #555555;
+}
+.wiki-single .tab-content .tab-pane#symptoms .symptoms-note .well p a {
+  color: #c0392b;
 }
 .wiki-single .wiki-appointment {
   padding: 15px;

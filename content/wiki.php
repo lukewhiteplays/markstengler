@@ -63,6 +63,46 @@
 		</div>
 		
 		<div class="tab-pane" id="symptoms">
+			<div class="col-lg-6 symptoms-summary">
+				<p class="lead">Common symptoms of hypothyroidism include <strong>fatigue, weight gain, dry skin, hair loss, constipation, intolerance to cold</strong>, and <strong>poor memory</strong>. Since thyroid hormones affect all cells of the body there are many other signs and symptoms including <span class="fa fa-long-arrow-right fa-lg"></span></p>
+			</div>
+			
+			<div class="col-lg-6 symptoms-list">
+				<ul class="list-inline">
+					<li class="label label-default">Anxiety</li>
+					<li class="label label-default">Arthritis</li>
+					<li class="label label-default">Brittle nails</li>
+					<li class="label label-default">Cold hands and feet</li>
+					<li class="label label-default">Eyebrow loss (especially outer 1/3)</li>
+					<li class="label label-default">High cholesterol</li>
+					<li class="label label-default">Heart palpitations</li>
+					<li class="label label-default">Infertility</li>
+					<li class="label label-default">Headaches</li>
+					<li class="label label-default">Depression</li>
+					<li class="label label-default">Low libido</li>
+					<li class="label label-default">Low body temperature</li>
+					<li class="label label-default">PMS</li>
+					<li class="label label-default">Fluid retention</li>
+					<li class="label label-default">Raynaud’s phenomenon</li>
+					<li class="label label-default">Carpal Tunnel Syndrome</li>
+					<li class="label label-default">Anemia</li>
+					<li class="label label-default">Slow healing</li>
+					<li class="label label-default">A puffy face</li>
+					<li class="label label-default">Hoarse voice</li>
+					<li class="label label-default">Muscle aches, tenderness and stiffness</li>
+					<li class="label label-default">Muscle weakness</li>
+					<li class="label label-default">Heavier than normal menstrual periods</li>
+				</ul>
+				
+			</div>
+			<div class="col-lg-12 symptoms-note">
+				<div class="well well-default">
+					<h3>Note</h3> 
+					<p>It is Dr. Stengler’s experience that many cases of hypothyroidism are undiagnosed. A common scenario is the patient who has several hypothyroid symptoms but no abnormal blood test results. Their doctor refuses to treat the patient for hypothyroidism without abnormalities in their tests. Many of these patients are what is termed sub-clinical hypothyroidism. That is to say they exhibit symptoms of low thyroid but their blood tests have not revealed a deficiency. Many of these patients’ symptoms improve tremendously from thyroid support with natural therapy (including nutritional supplements) or carefully monitored bio-identical thyroid hormone replacement.
+					<br><br>For more information on treating low thyroid with natural therapies, read Dr. Stengler’s article, <a href="#">“Could you have low thyroid and not know it?”</a></p>
+					
+				</div>
+			</div>
 		</div>
 		
 		<div class="tab-pane" id="treatments">

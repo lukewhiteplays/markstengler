@@ -4,7 +4,7 @@
 @import "application-sidebar.less";
 
 // Fonts
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400,700,);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
@@ -1226,7 +1226,7 @@ body{
 	.tab-content{
 		margin-top:20px;
 		.lead{
-			font-weight:200;
+			font-weight:300;
 			color:darken(@asbestos,20%);
 			a{
 				color:@pomegranate;
@@ -1240,6 +1240,7 @@ body{
 			.wiki-featured-image{
 				border-bottom:5px solid @alizarin;
 				margin-top:5px;
+				width:100%;
 			}
 			.panel{
 				margin-top:15px;
@@ -1252,6 +1253,56 @@ body{
 						font-size:20px;
 						text-transform:uppercase;
 						letter-spacing: 1px;
+					}
+				}
+			}
+		}
+		.tab-pane{
+			&#symptoms{
+				.symptoms-summary{
+					.lead{
+						font-size:44px;
+						font-weight:100;
+						strong{
+							font-weight:200;
+							color:@pomegranate;
+						}
+					}
+				}
+				.symptoms-list{
+					li{
+						font-size:18px;
+						font-weight:100;
+						margin-bottom:10px;
+						margin-right:7px;
+						border-radius:2px;
+						background-color:@concrete;
+						
+					}
+					
+				}
+				.symptoms-note{
+					.well{
+						border-radius:0;
+						margin-left:0;
+						border-width:0;
+						box-shadow:none;	
+						h3{
+							border-bottom:4px solid @asbestos;
+							font-weight:200;
+							font-family:'Lato';
+							margin-top:0;
+							padding-bottom:5px;
+							
+						}
+						p {
+							font-size:16px;
+							font-weight:200;
+							color:@gray;
+							a{
+								color:@pomegranate;
+							}
+						}
 					}
 				}
 			}
