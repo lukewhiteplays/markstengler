@@ -95,7 +95,7 @@
 						        <li><a href="#" class="products-trigger">Products</a></li>
 						        <li><a href="#">TV</a></li>
 						        <li class="dropdown">
-						          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clinic <b class="caret"></b></a>
+						          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clinic</a>
 						          <ul class="dropdown-menu">
 						            <li><a href="#">Action</a></li>
 						            <li><a href="#">Another action</a></li>
