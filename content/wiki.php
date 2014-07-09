@@ -9,10 +9,10 @@
 	
 	<ul class="nav nav-pills nav-justified nav-wiki-single">
 		<li class="active"><a href="#summary" role="tab" data-toggle="tab">Summary</a></li>
+		<li><a href="#causes" role="tab" data-toggle="tab">Causes</a></li>
 		<li><a href="#symptoms" role="tab" data-toggle="tab">Symptoms</a></li>
+		<li><a href="#testing" role="tab" data-toggle="tab">Testing</a></li>
 		<li><a href="#treatments" role="tab" data-toggle="tab">Treatments</a></li>
-		<li><a href="#supplements" role="tab" data-toggle="tab">Supplements</a></li>
-		<li><a href="#appointment" role="tab" data-toggle="tab">Appointment</a></li>
 	</ul>
 	
 	<div class="tab-content col-lg-12">
@@ -102,10 +102,87 @@
 					<br><br>For more information on treating low thyroid with natural therapies, read Dr. Stengler’s article, <a href="#">“Could you have low thyroid and not know it?”</a></p>
 					
 				</div>
+				
+				<div class="well well-danger">
+					<h3>Testing</h3>
+					<p>Dr. Stengler recommends that when your thyroid hormone levels are being assessed that you get a complete thyroid panel. Many doctors only order a TSH test. While it is used as a general screening it fails to detect many cases of hypothyroidism. A thorough thyroid panel would include TSH, Free T4, Free T3, reverse T3, and thyroid peroxidase antibodies. Do note that many holistic doctors and emerging studies are showing that an optimal TSH level to be 0.2 milli IU/L to 2.0 milli IU/L.
+
+					<br><br>Testing one’s body temperature is important too. It is best done immediately upon awakening with as little movement as possible. Record the readings on three consecutive days. For women still menstruating, it is best to test on the first three days of your cycle. If the average temperature is less than 97.8 F then you may have hypothyroidism.
+					</p>
+				</div>
 			</div>
 		</div>
 		
 		<div class="tab-pane" id="treatments">
+			<div class="col-lg-7">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Diet &amp; Lifestyle Changes</h3>
+					</div>
+					<div class="panel-body">
+						Alcohol and nicotine are enemies of the thyroid gland and should be avoided. Regular exercise is important to normalize stress hormone such as cortisol that can impair thyroid function. Fifteen to thirty minutes five times weekly. Consult with your doctor first before beginning a program. Avoid excessive consumption of soy foods. While there is no conclusive human evidence that soy foods or soy supplements suppress thyroid function, it is advised those prone to low thyroid use soy products in moderation until further research is completed in this area.
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Bio-identical Thyroid Hormone Replacement</h3>
+					</div>
+					<div class="panel-body">
+						For patients requiring hormone replacement Dr. Stengler prescribes <a href="#">Bio-identical Thyroid Hormone Replacement</a>. The advantage of these medications is that they contain both of the dominant thyroid hormones thyroxine (T4) and triiodothyronine (T3). In addition they contain the other thyroid hormones known as T2 and T1. Most synthetic medications contain only thyroxine (T4). Triiodothyronine (T3) is the most dominant thyroid in the human body and often is not a component of conventional thyroid hormone replacement.
+					</div>
+				</div>
+			</div><!-- ./col-lg-7-->
+			
+			<div class="col-lg-5">
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						<h3 class="panel-title">Recommended Supplements</h3>
+					</div>
+					<div class="panel-body">
+						<div class="media">
+							<a href="#" class="pull-left">
+								<img class="img-circle" src="http://placehold.it/48x48" />
+							</a>
+							<div class="media-body">
+								<h3 class="media-heading">Iodine</h3>
+							</div>
+						</div>
+						<div class="media">
+							<a href="#" class="pull-left">
+								<img class="img-circle" src="http://placehold.it/48x48" />
+							</a>
+							<div class="media-body">
+								<h3 class="media-heading">Thyroid Glandular</h3>
+							</div>
+						</div>
+						<div class="media">
+							<a href="#" class="pull-left">
+								<img class="img-circle" src="http://placehold.it/48x48" />
+							</a>
+							<div class="media-body">
+								<h3 class="media-heading">Kelp</h3>
+							</div>
+						</div>
+						<div class="media">
+							<a href="#" class="pull-left">
+								<img class="img-circle" src="http://placehold.it/48x48" />
+							</a>
+							<div class="media-body">
+								<h3 class="media-heading">Ashwagandha</h3>
+							</div>
+						</div>
+						<div class="media">
+							<a href="#" class="pull-left">
+								<img class="img-circle" src="http://placehold.it/48x48" />
+							</a>
+							<div class="media-body">
+								<h3 class="media-heading">Selenium</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		<div class="tab-pane" id="supplements">

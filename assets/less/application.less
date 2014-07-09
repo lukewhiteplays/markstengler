@@ -1188,10 +1188,15 @@ body{
 		margin-bottom:0px;
 		padding:15px;
 		padding-bottom:25px;
+		background-image:url('/assets/img/backgrounds/background_temp_01_blurred.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:center center;
+		border-bottom-width:0;
 		h1{
 			font-family:"Ubuntu" !important;
 			font-weight:400;
-			color:@alizarin;
+			color:black;
 		}
 	}
 	.nav-wiki-single{
@@ -1213,6 +1218,12 @@ body{
 					background-color:@alizarin;
 					color:@white;
 					border-bottom:4px solid @pomegranate;
+				}
+				&:hover{
+					a{
+						background-color:@alizarin;
+						border-bottom-color:@pomegranate;
+					}
 				}
 			}
 			&:hover{
@@ -1302,6 +1313,37 @@ body{
 							a{
 								color:@pomegranate;
 							}
+						}
+					}
+				}
+			}
+			&#treatments{
+				.panel{
+					border-radius:0;
+					background-color:@clouds;
+					border-width:0;
+					.panel-heading{
+						background-color:darker(@clouds,20%) !important;
+						.panel-title{
+							font-size:24px;
+							font-weight:100;
+							font-family:'Lato';
+							color:@pomegranate;
+						}
+					}
+					.panel-body{
+						font-family:'Lato';
+						color:@black;
+						font-weight:200;
+						font-size:16px;
+						a{
+							color:@pomegranate;
+							font-weight:300;
+						}
+					}
+					&.panel-danger{
+						.panel-body{
+							background-color:@white;
 						}
 					}
 				}
