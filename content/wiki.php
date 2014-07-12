@@ -57,11 +57,34 @@
 						</ul>
 					</div>
 				</div>				
-			</div><!-- ./col-lg-4 -->
-			
-			
-		</div>
+			</div><!-- ./col-lg-4 -->			
+		</div><!-- ./summary-->
 		
+		<!-- #causes -->
+		<div class="tab-pane" id="causes">
+			<div class="col-lg-12">
+				<ul class="list-unstyled">
+					<li>Sleep disorder (including apnea)</li>
+					<li>Allergies or sensitivities to certain chemicals or food or environment</li>
+					<li>Chemical imbalance in the brain, especially of serotonin</li>
+					<li>Virus (especially Epstein-Barr, HHV-6)</li>
+					<li>Hormone imbalance</li>
+					<li>Damage to cells by free radicals (oxidative stress)</li>
+					<li>Poor digestion and detoxification</li>
+					<li>Toxic metals</li>
+					<li>Blood sugar imbalance</li>
+					<li>Candidiasis and Parasites</li>
+					<li>Nutritional deficiencies, especially of minerals</li>
+					<li>Buildup of phosphate or uric acid</li>
+					<li>Structural abnormalities (spine and soft tissues)</li>
+					<li>Emotional stress</li>
+					<li>Overexertion</li>
+				</ul>
+			</div>		
+		</div><!-- ./causes -->
+			
+			
+		<!-- #symptoms -->	
 		<div class="tab-pane" id="symptoms">
 			<div class="col-lg-6 symptoms-summary">
 				<p class="lead">Common symptoms of hypothyroidism include <strong>fatigue, weight gain, dry skin, hair loss, constipation, intolerance to cold</strong>, and <strong>poor memory</strong>. Since thyroid hormones affect all cells of the body there are many other signs and symptoms including <span class="fa fa-long-arrow-right fa-lg"></span></p>
@@ -99,20 +122,23 @@
 				<div class="well well-default">
 					<h3>Note</h3> 
 					<p>It is Dr. Stengler’s experience that many cases of hypothyroidism are undiagnosed. A common scenario is the patient who has several hypothyroid symptoms but no abnormal blood test results. Their doctor refuses to treat the patient for hypothyroidism without abnormalities in their tests. Many of these patients are what is termed sub-clinical hypothyroidism. That is to say they exhibit symptoms of low thyroid but their blood tests have not revealed a deficiency. Many of these patients’ symptoms improve tremendously from thyroid support with natural therapy (including nutritional supplements) or carefully monitored bio-identical thyroid hormone replacement.
-					<br><br>For more information on treating low thyroid with natural therapies, read Dr. Stengler’s article, <a href="#">“Could you have low thyroid and not know it?”</a></p>
-					
-				</div>
-				
-				<div class="well well-danger">
-					<h3>Testing</h3>
-					<p>Dr. Stengler recommends that when your thyroid hormone levels are being assessed that you get a complete thyroid panel. Many doctors only order a TSH test. While it is used as a general screening it fails to detect many cases of hypothyroidism. A thorough thyroid panel would include TSH, Free T4, Free T3, reverse T3, and thyroid peroxidase antibodies. Do note that many holistic doctors and emerging studies are showing that an optimal TSH level to be 0.2 milli IU/L to 2.0 milli IU/L.
-
-					<br><br>Testing one’s body temperature is important too. It is best done immediately upon awakening with as little movement as possible. Record the readings on three consecutive days. For women still menstruating, it is best to test on the first three days of your cycle. If the average temperature is less than 97.8 F then you may have hypothyroidism.
-					</p>
+					<br><br>For more information on treating low thyroid with natural therapies, read Dr. Stengler’s article, <a href="#">“Could you have low thyroid and not know it?”</a></p>				
 				</div>
 			</div>
-		</div>
+		</div><!-- ./symptoms -->
 		
+		<!-- #testing -->
+		<div class="tab-pane" id="testing">
+			<div class="col-lg-12">
+				<p class="lead"><strong>Dr. Stengler</strong> recommends that when your thyroid hormone levels are being assessed that you get a <a href="#">complete thyroid panel</a>. Many doctors only order a TSH test. While it is used as a general screening it fails to detect many cases of hypothyroidism. A thorough thyroid panel would include <strong>TSH, Free T4, Free T3, reverse T3</strong>, and <strong>thyroid peroxidase antibodies</strong>. Do note that many holistic doctors and emerging studies are showing that an optimal TSH level to be <strong>0.2 milli IU/L</strong> to <strong>2.0 milli IU/L</strong>.
+
+				<br><br>Testing one’s body temperature is important too. It is best done immediately upon awakening with as little movement as possible. Record the readings on three consecutive days. For women still menstruating, it is best to test on the first three days of your cycle. If the average temperature is less than 97.8 F then you may have hypothyroidism.
+				</p>
+			</div>
+		</div>
+		<!-- ./testing -->
+		
+		<!-- #treatments -->
 		<div class="tab-pane" id="treatments">
 			<div class="col-lg-7">
 				<div class="panel panel-default">
@@ -183,13 +209,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		
-		<div class="tab-pane" id="supplements">
-		</div>
-		
-		<div class="appointment" id="appointment">
-		</div>
+		</div><!-- ./treatments -->
 	</div><!-- ./tab-content -->
 	
 	<!-- .service-appointment -->
@@ -220,6 +240,40 @@
 			</form>
 		</div>
 	</div> <!-- ./wiki-appointment -->
+	
+	<div class="col-lg-12 wiki-related-products">
+		<div class="col-lg-2">
+			<a href="/products/" class="thumbnail">
+				<img src="http://placehold.it/240x240">
+			</a>
+		</div>
+		<div class="col-lg-2">
+			<a href="/products/" class="thumbnail">
+				<img src="http://placehold.it/240x240">
+			</a>
+		</div>
+		<div class="col-lg-2">
+			<a href="/products/" class="thumbnail">
+				<img src="http://placehold.it/240x240">
+			</a>
+		</div>
+		<div class="col-lg-2">
+			<a href="/products/" class="thumbnail">
+				<img src="http://placehold.it/240x240">
+			</a>
+		</div>
+		<div class="col-lg-2">
+			<a href="/products/" class="thumbnail">
+				<img src="http://placehold.it/240x240">
+			</a>
+		</div>
+		<div class="col-lg-2">
+			<a href="/products/" class="thumbnail">
+				<img src="http://placehold.it/240x240">
+			</a>
+		</div>
+	</div> <!-- ./wiki-related-products -->
+
 
 </div><!-- ./row wiki-single -->
 

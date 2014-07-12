@@ -9092,7 +9092,8 @@ body .container-main .row .row:last-child {
   color: #ffffff;
   background-color: #e74c3c;
 }
-.service .service-related-products {
+.service .service-related-products,
+.service .wiki-related-products {
   margin-top: 45px;
 }
 .modal-product-video {
@@ -9666,6 +9667,12 @@ body .container-main .row .row:last-child {
 .wiki-single .tab-content .tab-pane#symptoms .symptoms-note .well p a {
   color: #c0392b;
 }
+.wiki-single .tab-content .tab-pane#causes ul li {
+  font-size: 20px;
+  font-family: 'Lato';
+  font-weight: 200;
+  color: #333333;
+}
 .wiki-single .tab-content .tab-pane#treatments .panel {
   border-radius: 0;
   background-color: #ecf0f1;
@@ -9697,6 +9704,7 @@ body .container-main .row .row:last-child {
   padding: 15px;
   text-align: center;
   background-color: #ecf0f1;
+  margin-bottom: 50px;
 }
 .wiki-single .wiki-appointment form label {
   font-weight: 300;
