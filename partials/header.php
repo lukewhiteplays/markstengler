@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mark Stengler Dev Environment</title>
+    <title>Mark Stengler, NMD, Doctor of Natureopathy &amp; Center for Integrative Medicine</title>
 
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -78,15 +78,19 @@
 					<!-- navigation bar -->
 				    <nav class="navbar navbar-default navbar-inverse navbar-main navbar-fixed-top" role="navigation">
 					  	<div class="container-fluid">
+					  		
 						    <!-- Brand and toggle get grouped for better mobile display -->
 						    <div class="navbar-header">
+						    	<img src="/assets/img/markstengler.jpg" class="pull-left img-circle" width="48" style="margin-right:15px;" />
 						      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						        <span class="sr-only">Toggle navigation</span>
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 						        <span class="icon-bar"></span>
 						      </button>
-						      <a class="navbar-brand" href="/"><span>DR</span> Mark Stengler</a>
+						      <a class="navbar-brand" href="/">Mark Stengler <span>NMD</span>
+							      <small class="text-uppercase">America's Natural Doctor</small>
+						      </a>
 						    </div>
 						
 						    <!-- Collect the nav links, forms, and other content for toggling -->

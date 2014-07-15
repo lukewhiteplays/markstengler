@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="col-lg-4 footer-email-subscribe">
-					<h3>Newsletter</h3>
+					<h3>Health Updates</h3>
 					<form class="form form-horizontal" role="form">
 						<div class="form-group">
 							<div class="input-group col-lg-12">
@@ -234,6 +234,7 @@
     <script src="/assets/js/vendor/payment/jquery.payment.js"></script>
     
     <script>
+    
     	$('.nav li .products-trigger').on('click',function(e){
     		e.preventDefault();
     		var productsWrapper = $('.navbar-products');
@@ -265,6 +266,17 @@
     	});
     	
     	$(document).ready(function(){
+    	
+    		var modal_search = $('.modal-search');
+    	
+    		// on escape
+    		$(document).keyup(function(e){
+	    		if(e.which===27 || e.keycode===27){
+		    		products.slideUp();
+		    		modal_search.modal('hide');
+	    		}
+    		});
+    		
     		$('.phone').inputmask('(999) 999-9999');
     		$('.zip').inputmask('*****-****');
     		$('input[name=credit_card_number]')

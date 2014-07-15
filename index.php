@@ -1,26 +1,15 @@
 <?php include "partials/header.php"; ?>
 <div class="row features">
 	<div class="col-lg-6 feature-video-large">
-		<img src="http://placehold.it/1280x720" class="img-responsive">
+		<img src="/assets/img/placeholder/videoPlaceholder.jpg" width="720" class="img-responsive">
 	</div>
 	<div class="col-lg-6">
 		<div class="row">
-			<div class="col-lg-4">
-				<img src="http://placehold.it/450x375" class="img-responsive">
+			<div class="col-lg-6">
+				<img src="http://placehold.it/450x535" class="img-responsive">
 			</div>
-			<div class="col-lg-4">
-				<img src="http://placehold.it/450x375" class="img-responsive">
-			</div>
-			<div class="col-lg-4">
-				<img src="http://placehold.it/450x375" class="img-responsive">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-8">
-				<img src="http://placehold.it/900x372" class="img-responsive">
-			</div>
-			<div class="col-lg-4">
-				<img src="http://placehold.it/450x392" class="img-responsive">
+			<div class="col-lg-6">
+				<img src="http://placehold.it/450x535" class="img-responsive">
 			</div>
 		</div>
 	</div>	
