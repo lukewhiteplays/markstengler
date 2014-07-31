@@ -72,31 +72,6 @@
 	</div> <!-- ./wiki-appointment -->
 </div>
 
-<div class="row features features-second-row">
-	<div class="col-lg-6 feature-video-large">
-		<div class="embed-responsive embed-responsive-16by9">
-		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1qju3xg3SjU?controls=0&showinfo=0"></iframe>
-		</div>
-	</div>
-	<div class="col-lg-6">
-		<div class="row">
-			<div class="col-lg-6 feature" style="background-image:url(/assets/img/placeholder/cholesterol-under-control.jpg);">
-				<div class="caption fade in">
-					<h3>More than Cholesterol<small>by Mark Stengler</small></h3>
-					<p class="lead">Research has demonstrated that the lipid doesn't assess your cardiovascular risk.</p>
-					<a href="/content/article.php">Read More <span class="fa fa-arrow-right"></span></a>
-				</div>
-			</div>
-			<div class="col-lg-6 feature feature-alt" style="background-image:url(/assets/img/backgrounds/healthy-life-09-400x266.jpg);">
-				<div class="caption fade in">
-					<h3>HCG Weight Loss<small>by Mark Stengler</small></h3>
-					<p class="lead">Over the years I have modernized this HCG program in various ways</p>
-					<a href="/content/article.php">Read More <span class="fa fa-arrow-right"></span></a>
-				</div>
-			</div>
-		</div>
-	</div>	
-</div>
 <div class="row features">
 	<div class="col-lg-3">
 		<div class="product" style="background-image:url(/assets/img/products/herbal_thyroid.jpg);">
@@ -140,6 +115,33 @@
 	</div>
 
 </div>
+
+<div class="row features features-second-row">
+	<div class="col-lg-6 feature-video-large">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1qju3xg3SjU?controls=0&showinfo=0"></iframe>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<div class="row">
+			<div class="col-lg-6 feature" style="background-image:url(/assets/img/placeholder/cholesterol-under-control.jpg);">
+				<div class="caption fade in">
+					<h3>More than Cholesterol<small>by Mark Stengler</small></h3>
+					<p class="lead">Research has demonstrated that the lipid doesn't assess your cardiovascular risk.</p>
+					<a href="/content/article.php">Read More <span class="fa fa-arrow-right"></span></a>
+				</div>
+			</div>
+			<div class="col-lg-6 feature feature-alt" style="background-image:url(/assets/img/backgrounds/healthy-life-09-400x266.jpg);">
+				<div class="caption fade in">
+					<h3>HCG Weight Loss<small>by Mark Stengler</small></h3>
+					<p class="lead">Over the years I have modernized this HCG program in various ways</p>
+					<a href="/content/article.php">Read More <span class="fa fa-arrow-right"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
 <div class="row features">
 	<div class="col-lg-12">
 		<img src="http://placehold.it/1900x800" class="img-responsive">
