@@ -41,6 +41,36 @@
   </a>
 </div>
 
+<!-- .service-appointment -->
+<div class="row">
+	<div class="col-lg-12 index-appointment">
+		<div class="col-lg-10 col-lg-offset-1">
+			<form class="form form-inline" role="form">
+				<div class="form-group">
+					<label>Make an appointment</label>
+					<input
+						type="email"
+						name="appointment_email"
+						placeholder="Your Email Address"
+						class="input-lg form-control"
+						autocomplete="off"
+						spellcheck="false"
+					>
+					
+					<input 
+						type="name"
+						name="appointment_name"
+						placeholder="Your Name"
+						class="input-lg form-control"
+						autocomplete="off"
+						spellcheck="false"
+					>
+					<button class="btn btn-danger btn-lg" type="submit">Go</button>
+				</div>
+			</form>
+		</div>
+	</div> <!-- ./wiki-appointment -->
+</div>
 
 <div class="row features features-second-row">
 	<div class="col-lg-6 feature-video-large">
