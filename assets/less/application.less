@@ -38,7 +38,7 @@ body{
 .navbar-main{
 	height:100px;
 	padding:25px 0px 15px 0px;
-	background-color:#222;
+	background-color:@belize-hole;
 	border-width:0;
 	background-image:url(/assets/img/markstengler.jpg);
 	background-repeat:no-repeat;
@@ -68,7 +68,7 @@ body{
 				font-family:'Lato';
 				padding-left:3px;
 				padding-top:2px;
-				color:@alizarin;
+				color:@midnight-blue;
 			}
 		}
 	}
@@ -95,7 +95,16 @@ body{
 					font-size:22px;
 				}
 				&:hover{
-					color:@sun-flower;
+					color:@midnight-blue;
+				}
+			}
+		}
+		.dropdown{
+			.dropdown-menu{
+				li{
+					a{
+						color:@midnight-blue;
+					}
 				}
 			}
 		}
@@ -103,8 +112,8 @@ body{
 	.navbar-products{
 		display:none;
 		height:400px;
-		margin-top:0px;
-		background-color:#222;
+		margin-top:20px;
+		background-color:@belize-hole;
 		color:@white;
 		h3{
 			color:@white;
@@ -213,12 +222,12 @@ body{
 }
 
 .modal-login{
-	top:65px;
+	top:105px;
 	.modal-dialog{
 		.modal-content{
 			border-radius:0;
 			color:@clouds;
-			background-color:black;
+			background-color:@belize-hole;
 			box-shadow:none;
 			.modal-header,.modal-body,.modal-footer{
 				border-width:0;
@@ -300,7 +309,7 @@ body{
 				font-size:18px;
 				margin-bottom:15px;
 				&:hover{
-					background-color:@belize-hole;
+					background-color:@midnight-blue;
 				}
 			}
 		}
@@ -309,7 +318,7 @@ body{
 
 
 .modal-register{
-	top:65px;
+	top:105px;
 	border-width:0;
 	.modal-dialog{
 		.modal-content{
@@ -504,6 +513,36 @@ body{
 				background-color:rgba(0,0,0,.6);
 				h3{
 					color:@alizarin;
+				}
+			}
+		}
+		
+	}
+	.product{
+		height:inherit;
+		width:100%;
+		background-size:cover;
+		text-align:center;
+		border:1px solid @silver;
+		.caption{
+			background-color:rgba(255,255,255,.6);
+			padding:15px;
+			margin:30px auto 25px auto;
+			text-align:center;
+			width:305px;
+
+			h2{
+				color:@pomegranate;
+			}
+			.price{
+				font-size:30px;
+			}
+			.btn{
+				border-radius:0;
+				border-width:0;
+				background-color:@pomegranate;
+				&:hover{
+					background-color:@black;
 				}
 			}
 		}
@@ -1640,7 +1679,7 @@ body{
 .footer-large{
 	width:100%;
 	height:260px;
-	background-color:#222;
+	background-color:@midnight-blue;
 	color:@clouds;
 	font-family:'Lato';
 	font-weight:300;

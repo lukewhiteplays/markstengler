@@ -8570,7 +8570,7 @@ body .container-main .row .row:last-child {
 .navbar-main {
   height: 100px;
   padding: 25px 0px 15px 0px;
-  background-color: #222;
+  background-color: #2980b9;
   border-width: 0;
   background-image: url(/assets/img/markstengler.jpg);
   background-repeat: no-repeat;
@@ -8601,7 +8601,7 @@ body .container-main .row .row:last-child {
   font-family: 'Lato';
   padding-left: 3px;
   padding-top: 2px;
-  color: #e74c3c;
+  color: #2c3e50;
 }
 .navbar-main .nav {
   border-width: 0;
@@ -8623,13 +8623,16 @@ body .container-main .row .row:last-child {
   font-size: 22px;
 }
 .navbar-main .nav li a:hover {
-  color: #f1c40f;
+  color: #2c3e50;
+}
+.navbar-main .nav .dropdown .dropdown-menu li a {
+  color: #2c3e50;
 }
 .navbar-main .navbar-products {
   display: none;
   height: 400px;
-  margin-top: 0px;
-  background-color: #222;
+  margin-top: 20px;
+  background-color: #2980b9;
   color: #ffffff;
 }
 .navbar-main .navbar-products h3 {
@@ -8727,12 +8730,12 @@ body .container-main .row .row:last-child {
   outline: none;
 }
 .modal-login {
-  top: 65px;
+  top: 105px;
 }
 .modal-login .modal-dialog .modal-content {
   border-radius: 0;
   color: #ecf0f1;
-  background-color: black;
+  background-color: #2980b9;
   box-shadow: none;
 }
 .modal-login .modal-dialog .modal-content .modal-header,
@@ -8815,10 +8818,10 @@ body .container-main .row .row:last-child {
   margin-bottom: 15px;
 }
 .modal-login .modal-dialog .modal-content button[type=submit]:hover {
-  background-color: #2980b9;
+  background-color: #2c3e50;
 }
 .modal-register {
-  top: 65px;
+  top: 105px;
   border-width: 0;
 }
 .modal-register .modal-dialog .modal-content {
@@ -8987,6 +8990,34 @@ body .container-main .row .row:last-child {
 }
 .features .feature:hover .caption h3 {
   color: #e74c3c;
+}
+.features .product {
+  height: inherit;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  border: 1px solid #bdc3c7;
+}
+.features .product .caption {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px;
+  margin: 30px auto 25px auto;
+  text-align: center;
+  width: 305px;
+}
+.features .product .caption h2 {
+  color: #c0392b;
+}
+.features .product .caption .price {
+  font-size: 30px;
+}
+.features .product .caption .btn {
+  border-radius: 0;
+  border-width: 0;
+  background-color: #c0392b;
+}
+.features .product .caption .btn:hover {
+  background-color: #000000;
 }
 .product-single {
   margin-top: 15px;
@@ -9966,7 +9997,7 @@ body .container-main .row .row:last-child {
 .footer-large {
   width: 100%;
   height: 260px;
-  background-color: #222;
+  background-color: #2c3e50;
   color: #ecf0f1;
   font-family: 'Lato';
   font-weight: 300;

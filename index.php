@@ -69,17 +69,46 @@
 </div>
 <div class="row features">
 	<div class="col-lg-3">
-		<img src="http://placehold.it/450x375" class="img-responsive">
+		<div class="product" style="background-image:url(/assets/img/products/herbal_thyroid.jpg);">
+			<div class="caption">
+				<h2>Thyroid Wellness</h2>
+				<p class="lead">Superior Thyroid Gland</p>
+				<p class="price">$36.95</p>
+				<a href="/products/index.php" class="btn btn-lg btn-danger">Add To Cart <i class="fa fa-shopping-cart"></i></a>
+			</div>
+		</div>
 	</div>
 	<div class="col-lg-3">
-		<img src="http://placehold.it/450x375" class="img-responsive">
+		<div class="product" style="background-image:url(/assets/img/products/MegaFloraBlog.jpg);">
+			<div class="caption">
+				<h2>Mega Flora</h2>
+				<p class="lead">100 Billion CFU Probiotic</p>
+				<p class="price">$47.95</p>
+				<a href="/products/index.php" class="btn btn-lg btn-danger">Add To Cart <i class="fa fa-shopping-cart"></i></a>
+			</div>
+		</div>
 	</div>
 	<div class="col-lg-3">
-		<img src="http://placehold.it/450x375" class="img-responsive">
+		<div class="product" style="background-image:url(/assets/img/products/boneplus.jpg);">
+			<div class="caption">
+				<h2>Bone Plus</h2>
+				<p class="lead">Advanced Collagen Generator</p>
+				<p class="price">$19.90</p>
+				<a href="/products/index.php" class="btn btn-lg btn-danger">Add To Cart <i class="fa fa-shopping-cart"></i></a>
+			</div>
+		</div>
 	</div>
 	<div class="col-lg-3">
-		<img src="http://placehold.it/450x375" class="img-responsive">
+		<div class="product" style="background-image:url(/assets/img/products/liquidd3.jpg);">
+			<div class="caption">
+				<h2>Liquid D3</h2>
+				<p class="lead">Supports Neurological Health</p>
+				<p class="price">$42.00</p>
+				<a href="/products/index.php" class="btn btn-lg btn-danger">Add To Cart <i class="fa fa-shopping-cart"></i></a>
+			</div>
+		</div>
 	</div>
+
 </div>
 <div class="row features">
 	<div class="col-lg-12">
