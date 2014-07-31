@@ -17,6 +17,7 @@
     <![endif]-->
     
     <script src="/assets/js/vendor/sidebarTransitions/modernizr.custom.js"></script>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
   </head>
   <body>
   	<div class="st-container" id="st-container">
@@ -81,7 +82,6 @@
 					  		
 						    <!-- Brand and toggle get grouped for better mobile display -->
 						    <div class="navbar-header">
-						    	<img src="/assets/img/markstengler.jpg" class="pull-left img-circle" width="48" style="margin-right:15px;" />
 						      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						        <span class="sr-only">Toggle navigation</span>
 						        <span class="icon-bar"></span>

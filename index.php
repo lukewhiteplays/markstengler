@@ -10,21 +10,24 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="http://placehold.it/1900x800" alt="...">
+      <img src="/assets/img/carousel/carousel_handsearth_1800x700_01.jpg" alt="...">
       <div class="carousel-caption">
-        <h1>This is a caption</h1>
+        <h1>Thyroid Wellness <span>ON SALE</span></h1>
+        <p class="lead">Purchase your next supplement now in our store <i class="fa fa-long-arrow-right"></i></p>
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1900x800" alt="...">
+      <img src="/assets/img/carousel/carousel_sunset_1800x700_01.jpg" alt="...">
       <div class="carousel-caption">
-        <h1>This is another caption</h1>
+        <h1>IV Nutrient Therapy</h1>
+        <p class="lead">From Vitamin C to Cancer Treatments. Read more <i class="fa fa-long-arrow-right"></i></p>
       </div>
     </div>
     <div class="item">
-      <img src="http://placehold.it/1900x800" alt="...">
+      <img src="/assets/img/carousel/carousel_organic_1800x700_01.jpg" alt="...">
       <div class="carousel-caption">
-        <h1>This is yet another caption</h1>
+        <h1>"Organic Is Best"</h1>
+        <p class="lead">Read why Organics are the cure for everything under the sun</p>
       </div>
     </div>
   </div>
@@ -39,9 +42,11 @@
 </div>
 
 
-<div class="row features">
+<div class="row features features-second-row">
 	<div class="col-lg-6 feature-video-large">
-		<img src="/assets/img/placeholder/videoPlaceholder.jpg" width="720" class="img-responsive">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1qju3xg3SjU?controls=0&showinfo=0"></iframe>
+		</div>
 	</div>
 	<div class="col-lg-6">
 		<div class="row">
@@ -92,4 +97,15 @@
 		<img src="http://placehold.it/640x375" class="img-responsive">
 	</div>
 </div>
+
+<script>
+	var rowHeight 	= $('.feature-video-large').height(),
+		features	= $('.features-second-row').find('.feature');
+		
+	features.each(function(e){
+		console.log(e);
+		$(this).height(rowHeight);
+	});
+	
+</script>
 <?php include "partials/footer.php"; ?>

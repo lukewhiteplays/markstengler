@@ -22,7 +22,7 @@ html{
 body{
 	.container-main{
 		min-height:100%;
-		padding-top:80px;
+		padding-top:100px;
 		.row{
 			margin-bottom:@grid-gutter-width;
 			.row{
@@ -36,10 +36,14 @@ body{
 }
 
 .navbar-main{
-	height:80px;
-	padding:15px 0px 15px 0px;
+	height:100px;
+	padding:25px 0px 15px 0px;
 	background-color:#222;
 	border-width:0;
+	background-image:url(/assets/img/markstengler.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	background-size:100px 100px;
 	.navbar-header{
 		.navbar-brand{
 			font-size:24px;
@@ -49,6 +53,7 @@ body{
 			border-width:0;
 			margin-top:5px;
 			padding-top:0;
+			margin-left:80px;
 			span{
 				font-family:'Lato';
 				font-weight:300;
@@ -424,26 +429,54 @@ body{
 	}
 }
 
+.carousel{
+	.carousel-inner{
+		.item{
+			.carousel-caption{
+				background-color:rgba(0,0,0,.5);
+				h1{
+					font-family:'Vitesse Light';
+					font-size:82px;
+					span{
+						text-transform: uppercase;
+						
+					}
+				}
+				.lead{
+					font-family:'Lato';
+					font-weight:400;
+					color:@sun-flower;
+				}
+			}
+		}
+	}
+}
+
 .features{
 	margin-top:20px;
+	display:flex;
 	.feature{
 		background-position:right bottom;
 		background-repeat:no-repeat;
 		height:400px;
 		position:relative;
 		img{
-			z-index:1;
+			z-index:-1;
+			position:absolute;
+			top:0;
+			left:0;
 			
 		}
 		.caption{
 			position:absolute;
-			top:30%;
+			top:10%;
 			width:80%;
 			text-align:center;
 			color:@white;
 			margin:15px;
 			background-color:rgba(0,0,0,.5);
 			padding:15px;
+			
 			h3{
 				margin-top:5px;
 				font-family:'Vitesse Light';

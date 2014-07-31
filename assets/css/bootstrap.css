@@ -8559,7 +8559,7 @@ html {
 }
 body .container-main {
   min-height: 100%;
-  padding-top: 80px;
+  padding-top: 100px;
 }
 body .container-main .row {
   margin-bottom: 30px;
@@ -8568,10 +8568,14 @@ body .container-main .row .row:last-child {
   margin-bottom: 0;
 }
 .navbar-main {
-  height: 80px;
-  padding: 15px 0px 15px 0px;
+  height: 100px;
+  padding: 25px 0px 15px 0px;
   background-color: #222;
   border-width: 0;
+  background-image: url(/assets/img/markstengler.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100px 100px;
 }
 .navbar-main .navbar-header .navbar-brand {
   font-size: 24px;
@@ -8581,6 +8585,7 @@ body .container-main .row .row:last-child {
   border-width: 0;
   margin-top: 5px;
   padding-top: 0;
+  margin-left: 80px;
 }
 .navbar-main .navbar-header .navbar-brand span {
   font-family: 'Lato';
@@ -8914,8 +8919,24 @@ body .container-main .row .row:last-child {
   text-align: right;
   background-color: #333;
 }
+.carousel .carousel-inner .item .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel .carousel-inner .item .carousel-caption h1 {
+  font-family: 'Vitesse Light';
+  font-size: 82px;
+}
+.carousel .carousel-inner .item .carousel-caption h1 span {
+  text-transform: uppercase;
+}
+.carousel .carousel-inner .item .carousel-caption .lead {
+  font-family: 'Lato';
+  font-weight: 400;
+  color: #f1c40f;
+}
 .features {
   margin-top: 20px;
+  display: flex;
 }
 .features .feature {
   background-position: right bottom;
@@ -8924,11 +8945,14 @@ body .container-main .row .row:last-child {
   position: relative;
 }
 .features .feature img {
-  z-index: 1;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .features .feature .caption {
   position: absolute;
-  top: 30%;
+  top: 10%;
   width: 80%;
   text-align: center;
   color: #ffffff;
