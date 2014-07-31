@@ -144,18 +144,31 @@
 
 <div class="row features">
 	<div class="col-lg-12">
-		<img src="http://placehold.it/1900x800" class="img-responsive">
+		<div class="feature-large" style="background-image:url(/assets/img/carousel/carousel_balance_1800x700_01.jpg);">
+			<div class="caption">
+				<h1>Hormone Balancing for Men and Women</h1>
+				<p class="lead">Find out more about this special service offered by Dr. Stengler and The Center for Integrative Medicine</p>
+				<a href="/services/index.php" class="btn btn-lg btn-danger">Learn More <i class="fa fa-long-arrow-right"></i></a>
+			</div>
+			
+		</div>
 	</div>
 </div>
 <div class="row features">
 	<div class="col-lg-4">
-		<img src="http://placehold.it/640x375" class="img-responsive">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P4unefi6ddM?controls=0&showinfo=0"></iframe>
+		</div>
 	</div>
 	<div class="col-lg-4">
-		<img src="http://placehold.it/640x375" class="img-responsive">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AoL8uYMxy08?controls=0&showinfo=0"></iframe>
+		</div>
 	</div>
 	<div class="col-lg-4">
-		<img src="http://placehold.it/640x375" class="img-responsive">
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IJ__DkTikkk?controls=0&showinfo=0"></iframe>
+		</div>
 	</div>
 </div>
 

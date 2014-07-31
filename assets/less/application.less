@@ -464,6 +464,34 @@ body{
 .features{
 	margin-top:20px;
 	display:flex;
+	.feature-large{
+		background-position:center center;
+		background-repeat:no-repeat;
+		background-size:cover;
+		height:500px;
+		width:inherit;
+		text-align:center;
+		color:@clouds;
+		padding-top:50px;
+		.caption{
+			background-color:rgba(0,0,0,.6);
+			margin:50px auto;
+			width:80%;
+			padding:25px;
+			h1{
+				font-family:'Vitesse Light';
+				color:@peter-river;
+			}
+			.btn{
+				border-radius:0;
+				border-width:0;
+				background-color:@belize-hole;
+				&:hover{
+					background-color:@black;
+				}
+			}
+		}
+	}
 	.feature{
 		background-position:right bottom;
 		background-repeat:no-repeat;
