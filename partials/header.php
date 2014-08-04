@@ -111,7 +111,7 @@
 						          </ul>
 						        </li>
 						        <li>
-						        	<a href="#">Appointments</a>
+						        	<a href="#">Call 800-DOC-MARK</a>
 						        </li>
 						      </ul>
 						      <ul class="nav navbar-nav navbar-right">
